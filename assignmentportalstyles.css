@@ -1,0 +1,23 @@
+body{
+    max-width: 500px;
+    background-color: antiquewhite;
+    color: brown;
+}
+header{
+    height: 50px;
+    text-align: center;
+    background-color: goldenrod;
+    color: antiquewhite;
+
+}
+img {
+    padding: 20px;
+    float: right;
+    max-width: 100px;
+}
+footer{
+    height: 30px;
+    text-align: center;
+    background-color: goldenrod;
+    color: antiquewhite;
+}
