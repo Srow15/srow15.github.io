@@ -4,6 +4,8 @@ body{
     overflow: visible;
     margin: auto;
     color: brown;
+    font-family: Helvetica, sans-serif;
+
 }
 header{
     height: 75px;
@@ -12,10 +14,13 @@ header{
     border-radius: 10px;
 
 }
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
 header h1{
+    font-family: 'Times New Roman', Times, serif;
     font-size: 3em;
-    padding: 15px 10px 0px 100px
-
+    padding: 10px 10px 0px 100px
 }
 img {
     padding: 35px 50px;
