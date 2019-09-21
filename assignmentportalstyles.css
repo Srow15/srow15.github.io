@@ -1,4 +1,4 @@
-body{
+body {
     max-width: 1100px;
     min-width: 550px;
     overflow: visible;
@@ -7,45 +7,51 @@ body{
     font-family: Helvetica, sans-serif;
 
 }
-header{
+
+header {
     height: 75px;
     background-color: goldenrod;
     color: antiquewhite;
     border-radius: 10px;
 
 }
-h2{
+
+h2 {
     font-family: 'Times New Roman', Times, serif;
 }
-header h1{
+
+header h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 3em;
     padding: 10px 10px 0px 100px
 }
+
 img {
     padding: 35px 50px;
     float: right;
     width: 27%;
- }
-main{
+}
+
+main {
     background-color: antiquewhite;
     margin: -30px 0px -20px 0px;
     min-height: 400px;
     padding-left: 100px;
 }
-h2{
+
+h2 {
     font-size: 2em;
     border-bottom: solid brown 1px;
     width: 60%;
     padding-top: 30px;
 }
 
-footer{
+footer {
     height: 75px;
     padding: 30px;
     text-align: center;
     background-color: goldenrod;
     color: antiquewhite;
     border-radius: 5px;
-    
+
 }
