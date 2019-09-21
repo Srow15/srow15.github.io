@@ -1,36 +1,44 @@
 body{
-    max-width: 600px;
+    max-width: 1100px;
     min-width: 550px;
     overflow: visible;
     margin: auto;
-    background-color: antiquewhite;
     color: brown;
 }
 header{
-    height: 50px;
+    height: 75px;
     background-color: goldenrod;
     color: antiquewhite;
     border-radius: 10px;
+
 }
 header h1{
-    padding-top: 5px;
-    padding-left: 35px;
+    font-size: 3em;
+    padding: 15px 10px 0px 100px
 
-}
-main{
-    min-height: 150px;
-    padding-left: 35px;
-    box-shadow: 5;
 }
 img {
-    padding: 25px;
+    padding: 35px 50px;
     float: right;
-    max-width: 150px;
-
+    width: 27%;
+ }
+main{
+    background-color: antiquewhite;
+    margin: -30px 0px -20px 0px;
+    min-height: 400px;
+    padding-left: 100px;
 }
+h2{
+    font-size: 2em;
+    line-height: 3em;
+    border-bottom: solid brown 1px;
+    width: 60%;
+}
+
 footer{
-    min-height: 60px;
-    padding-left: 35px;
+    height: 75px;
+    padding: 30px;
+    text-align: center;
     background-color: goldenrod;
     color: antiquewhite;
     border-radius: 5px;
