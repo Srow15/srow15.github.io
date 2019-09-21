@@ -1,5 +1,7 @@
 body{
     max-width: 600px;
+    min-width: 550px;
+    overflow: scroll;
     margin: auto;
     background-color: antiquewhite;
     color: brown;
@@ -28,7 +30,7 @@ img {
 
 }
 footer{
-    height: 30px;
+    min-height: 60px;
     padding-left: 35px;
     background-color: goldenrod;
     color: antiquewhite;
