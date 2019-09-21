@@ -1,5 +1,6 @@
 body{
-    max-width: 500px;
+    max-width: 600px;
+    margin: auto;
     background-color: antiquewhite;
     color: brown;
 }
@@ -8,15 +9,29 @@ header{
     text-align: center;
     background-color: goldenrod;
     color: antiquewhite;
+    border-radius: 10px;
+}
+header h1{
+    margin-left: -100px;
+    padding-top: 5px;
 
 }
+main{
+    min-height: 150px;
+    padding-left: 35px;
+    box-shadow: 5;
+}
 img {
-    padding: 20px;
+    padding: 25px;
     float: right;
-    max-width: 100px;
+    max-width: 150px;
+
 }
 footer{
     height: 30px;
+    padding-left: 35px;
     background-color: goldenrod;
     color: antiquewhite;
+    border-radius: 5px;
+    
 }
