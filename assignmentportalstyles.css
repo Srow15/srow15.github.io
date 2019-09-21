@@ -8,14 +8,13 @@ body{
 }
 header{
     height: 50px;
-    text-align: center;
     background-color: goldenrod;
     color: antiquewhite;
     border-radius: 10px;
 }
 header h1{
-    margin-left: -100px;
     padding-top: 5px;
+    padding-left: 35px;
 
 }
 main{
