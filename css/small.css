@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Mali|Pacifico&display=swap');
 body {
-    max-width: 1100px;
     margin: auto;
     color: brown;
     font-family: 'Mali', sans-serif;
@@ -22,7 +21,7 @@ header h1 {
 
 img {
     padding: 15px 33%;
-    width: 27%;
+    width: 20%;
 }
 
 main {

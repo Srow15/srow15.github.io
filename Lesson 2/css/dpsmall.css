@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Mali|Pacifico&display=swap');
+body {
+	margin: auto;
+    color: antiquewhite;
+    background-color: antiquewhite;
+    font-family: 'Mali', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    color: brown;
+	font-family: 'Pacifico', cursive;
+}
+header h1 {
+    font-size: 4em;
+}
+h2 {
+    font-size: 1em;
+}
+main {
+    background-color: antiquewhite;
+	max-width: 767px;
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+}
+img {
+    border: 1px solid brown;
+}
+section {
+	margin: 0.5rem;
+	border: 1px solid brown;
+	padding: 0 1rem;
+	background-color: goldenrod;
+}
+footer {
+    border: 1px solid brown;
+    padding: 2px;
+    text-align: center;
+    background-color: goldenrod;
+    color: antiquewhite;
+
+}
