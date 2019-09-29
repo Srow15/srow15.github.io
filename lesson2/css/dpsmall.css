@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Mali|Pacifico&display=swap');
 body {
 	margin: auto;
-    color: antiquewhite;
-    background-color: antiquewhite;
+   background-color: antiquewhite;
     font-family: 'Mali', sans-serif;
 }
 header {
@@ -15,7 +14,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 main {
-    background-color: antiquewhite;
+    color: antiquewhite;
 	max-width: 767px;
 	display: grid;
 	grid-template-columns: 1fr;
