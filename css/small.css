@@ -8,11 +8,12 @@ body {
     color: brown;
     font-family: 'Mali', sans-serif;
     height: 100%;
+    background-color: antiquewhite;
 }
 
 header {
     background-color: goldenrod;
-    color: antiquewhite;
+    color: brown;
 }
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Pacifico', cursive;
@@ -31,7 +32,6 @@ img {
 }
 
 main {
-    background-color: antiquewhite;
     margin: 0px;
     min-height: 150px;
     padding-left: 100px;
@@ -48,6 +48,6 @@ footer {
     padding: 30px;
     text-align: center;
     background-color: goldenrod;
-    color: antiquewhite;
+    color: brown;
 
 }
