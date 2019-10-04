@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Rokkitt|Varela+Round&display=swap');
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Varela Round', sans-serif;
-}
+
 
 body {
     margin: 0 auto;
@@ -15,47 +8,52 @@ body {
     font-family: 'Rokkitt', serif;
 
 }
-header{
+
+header {
     background-color: #c7cfe7;
 }
-nav{
+
+nav {
     text-align: center;
     background-color: #2e4ba8;
-    padding:3px;
+    padding: 3px;
 
 }
-nav ul{
-    display:flex;
+
+nav ul {
+    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     list-style-type: none;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
-nav li{
+nav li {
     padding: 5px;
 }
 
-nav li a{
+nav li a {
     text-decoration: none;
-    color:#ffffff;
-  
+    color: #ffffff;
+
 }
 }
-nav a:hover{
+
+nav a:hover {
     background-color: #ffff05;
 }
-main{
+
+main {
     background-color: #c7cfe7;
 }
-footer{
+
+footer {
     background-color: #2e4ba8;
 }
 
 #color1 {
     background-color: #ffffff
-
 }
 
 #color2 {
@@ -68,4 +66,13 @@ footer{
 
 #color4 {
     background-color: #ffff05
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Varela Round', sans-serif;
 }
