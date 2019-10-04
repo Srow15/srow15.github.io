@@ -6,16 +6,18 @@ body {
     margin: 0 auto;
     max-width: 900px;
     font-family: 'Rokkitt', serif;
+    color: #192a5f;
 
 }
 
 header {
-    background-color: #c7cfe7;
+    background-color: #afb1b9;
+    padding: 5px;
 }
 
 nav {
     text-align: center;
-    background-color: #2e4ba8;
+    background-color: #192a5f;
     padding: 3px;
 
 }
@@ -45,23 +47,33 @@ nav a:hover {
 }
 
 main {
-    background-color: #c7cfe7;
+    background-color: #afb1b9;
+    padding: 25px 10%;
 }
 
 footer {
-    background-color: #2e4ba8;
+    background-color: #192a5f;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
 }
-
+#colormain p {
+    width: 150px;
+    display: inline;
+    border: solid 1px #192a5f;
+    padding: 5px;
+}
 #color1 {
     background-color: #ffffff
 }
 
 #color2 {
-    background-color: #2e4ba8
+    background-color: #192a5f;
+    color: #ffffff;
 }
 
 #color3 {
-    background-color: #c7cfe7
+    background-color: #afb1b9
 }
 
 #color4 {
