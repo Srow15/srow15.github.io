@@ -15,6 +15,9 @@ body {
     font-family: 'Rokkitt', serif;
 
 }
+header{
+    background-color: #c7cfe7;
+}
 nav{
     text-align: center;
     background-color: #2e4ba8;
@@ -30,6 +33,9 @@ nav ul{
     padding:0;
 }
 
+nav li{
+    padding: 5px;
+}
 
 nav li a{
     text-decoration: none;
@@ -40,7 +46,12 @@ nav li a{
 nav a:hover{
     background-color: #ffff05;
 }
-
+main{
+    background-color: #c7cfe7;
+}
+footer{
+    background-color: #2e4ba8;
+}
 
 #color1 {
     background-color: #ffffff
