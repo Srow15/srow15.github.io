@@ -17,6 +17,10 @@ header {
     background-color: #afb1b9;
     padding: 5px;
 }
+header h1{
+    color: #ffff05;
+    padding: 0px 20px;
+}
 
 
 nav {
@@ -92,7 +96,4 @@ h5,
 h6 {
     font-family: 'Varela Round', sans-serif;
     color: #192a5f;
-}
-header h1{
-    color: #ffff05;
 }
