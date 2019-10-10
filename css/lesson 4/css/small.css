@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Rokkitt|Varela+Round&display=swap');
+/* every page */
+body {
+    margin: auto;
+    max-width: 80%;
+    font-family: 'Rokkitt', serif;
+    color: #192a5f;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    background-color: #afb1b9;
+    padding: 5px;
+}
+header h1{
+    color: #ffff05;
+    padding: 20px;
+}
+nav {
+    text-align: center;
+    background-color: #192a5f;
+    padding: 3px;
+
+}
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+}
+nav li {
+    padding: 5px;
+}
+nav li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover {
+    color: #ffff05;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Varela Round', sans-serif;
+    color: #192a5f;
+}
+/*preston page*/
