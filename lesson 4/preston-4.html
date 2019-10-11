@@ -17,10 +17,11 @@
     <header>
         <img src="img/weatherplus-logo-300.png" alt="PSFS Weather Plus Logo">
         <h1>PSFS Weather Plus</h1>
-        <p>motto here</p>
+        <p>When you need the weather, plus.</p>
     </header>
     <nav>
-        <ul>
+        <ul class="navigation" class="responsive">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="">Home</a></li>
             <li><a href="preston-4.htmll">Preston</a></li>
             <li><a href="">Soda Springs</a></li>
@@ -45,7 +46,10 @@
  </div>
     </main>
     <footer>
-
+        <p>&copy; <span id="copyrightdate"></span> Sarah E. Rowley</p>
+        <p>Date <span id="currentdate"> </span></p>
+        <script src="JS/currentdate.js"></script>
+        <script src="../js/copyrightyear.js"></script>
     </footer>
 </body>
 
