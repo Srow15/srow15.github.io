@@ -1,49 +1,76 @@
 @import url('https://fonts.googleapis.com/css?family=Rokkitt|Varela+Round&display=swap');
-/* every page */
+
 body {
     margin: auto;
-    max-width: 100%;
     font-family: 'Rokkitt', serif;
     color: #192a5f;
+
 }
+
 header {
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     background-color: #afb1b9;
     padding: 5px;
 }
-header h1{
+
+header h1 {
     color: #ffff05;
     padding: 20px;
 }
+
+header img {
+    max-width: 150px;
+}
+
 nav {
-    text-align: center;
+    margin: 0 auto;
     background-color: #192a5f;
     padding: 3px;
-
 }
 .navigation {
-    max-width: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    list-style-type: none;
-    margin: auto;
+    list-style: none;
+    text-align: center;
     padding: 0;
 }
 
-nav li {
-    padding: 5px;
+.navigation li:first-child {
+    display: block;
 }
-nav li a {
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    text-align: center;
     text-decoration: none;
-    color: #ffffff;
 }
-a:hover {
+
+.navigation a:hover {
     color: #ffff05;
+    background-color: #192a5f;
 }
-h1,
+
+.responsive li {
+    display: block;
+}
+
+main {
+    background-color: #afb1b9;
+    padding: 25px 10%;
+}
+
+footer {
+    background-color: #192a5f;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+}
+
+1,
 h2,
 h3,
 h4,
@@ -51,18 +78,4 @@ h5,
 h6 {
     font-family: 'Varela Round', sans-serif;
     color: #192a5f;
-}
-main {
-    background-color: #afb1b9;
-    padding: 25px 10%;
-}
-footer {
-    background-color: #192a5f;
-    color: #ffffff;
-    padding: 5px;
-    text-align: center;
-}
-/*preston page*/
-img {
-    width:150px;
 }

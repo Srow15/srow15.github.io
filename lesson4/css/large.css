@@ -1,15 +1,21 @@
 @media only screen and (min-width: 60em) {    
-   header img {
-        width:300px;
+    header img {
+        max-width:300px;
     }
     header{
         flex-direction: row;
     }
-    nav ul {
-        flex-direction: row;
-    }
-    .navigation li:first-child{
-        display:none;
-    }
-    
+	.navigation {
+		display: flex;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: yellow;
+	}  
 }
