@@ -26,8 +26,8 @@ month[9] = Oct;
 month[10] = Nov;
 month[11] = Dec;
 var dow = weekday[today.getDay()];
-var dd =  today.getDate()
 var mm = month[today.getMonth()];
+var dd =  today.getDate()
 var yyyy = today.getFullYear();
 
 today = " " + dow + ", " + mm + " " + dd + ", " + yyyy;
