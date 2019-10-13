@@ -20,8 +20,15 @@ header h1 {
     padding: 20px;
 }
 
-header img {
-    max-width: 150px;
+#headerimg {
+    max-width: 200px;
+}
+header h1{
+    padding: 0px 5px;
+}
+header p{
+    margin-top: 2px;
+    padding-left: 5px;
 }
 
 nav {

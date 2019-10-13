@@ -1,6 +1,9 @@
 @media only screen and (min-width: 60em) {    
-#headerimg {
-        max-width:262px;
+	#headerimg {
+        max-width:80%;
+	}
+	header h1{
+		margin-top: 60px;
 	}
 	.navigation {
 		display: flex;
