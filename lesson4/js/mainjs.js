@@ -30,5 +30,5 @@ var mm = month[today.getMonth()];
 var dd =  today.getDate()
 var yyyy = today.getFullYear();
 
-today = " " + dow + ", " + mm + " " + dd + " " + yyyy;
+today = " " + dow + ", " + dd + " " + mm + " " + yyyy;
 document.getElementById("currentdate").innerHTML = today;
