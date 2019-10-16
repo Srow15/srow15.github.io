@@ -10,7 +10,7 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     background-color: #afb1b9;
     padding: 20px 40px;
 }
@@ -23,10 +23,12 @@ header h1 {
 #headerimg {
     max-width: 200px;
 }
-header h1{
+
+header h1 {
     padding: 0px 5px;
 }
-header p{
+
+header p {
     margin-top: 2px;
     padding-left: 5px;
 }
@@ -36,6 +38,7 @@ nav {
     background-color: #192a5f;
     padding: 3px;
 }
+
 .navigation {
     list-style: none;
     text-align: center;

@@ -1,10 +1,12 @@
-@media only screen and (min-width: 60em) {    
+@media only screen and (min-width: 60em) {
 	#headerimg {
-        max-width:80%;
+		max-width: 80%;
 	}
-	header h1{
+
+	header h1 {
 		margin-top: 60px;
 	}
+
 	.navigation {
 		display: flex;
 	}
@@ -12,26 +14,32 @@
 	.navigation li:first-child {
 		display: none;
 	}
+
 	.navigation li {
 		display: block;
 		flex: 1 1 100%;
 	}
+
 	.navigation li a {
 		color: yellow;
-	}  
+	}
+
 	main {
-		margin:auto;
+		margin: auto;
 		padding: 5px;
 		max-width: 90%;
-	} 
-	main div{
-		padding-left:60px;
 	}
-	main h2{
-		padding-left:60px;
+
+	main div {
+		padding-left: 60px;
 	}
+
+	main h2 {
+		padding-left: 60px;
+	}
+
 	footer {
-		margin:auto;
+		margin: auto;
 		max-width: 90%;
 	}
 }
