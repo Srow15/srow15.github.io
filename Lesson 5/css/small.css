@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Rokkitt|Varela+Round&display=swap');
+
+body {
+    margin: 0 auto;
+    font-family: 'Rokkitt', serif;
+    color: #192a5f;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #afb1b9;
+    padding: 20px 40px;
+}
+
+header h1 {
+    color: #ffff05;
+    padding: 20px;
+}
+
+#headerimg {
+    max-width: 200px;
+}
+
+header h1 {
+    padding: 0px 5px;
+}
+
+header p {
+    margin-top: 2px;
+    padding-left: 5px;
+}
+
+nav {
+    margin: 0 auto;
+    background-color: #192a5f;
+    padding: 3px;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navigation a:hover {
+    color: #ffff05;
+    background-color: #192a5f;
+}
+
+.responsive li {
+    display: block;
+    padding: 10px;
+}
+
+main {
+    background-color: #afb1b9;
+    padding: 25px 10%;
+}
+#weatherimg{
+    width: 10%
+}
+
+#rainimg {
+    width:20%;
+}
+#map {
+    width: 20%;
+}
+
+footer {
+    background-color: #192a5f;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Varela Round', sans-serif;
+    color: #192a5f;
+}

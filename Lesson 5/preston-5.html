@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <title>Presrton Idaho Weather</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="This page gives the weather, a five day forcast, and artcle about the city of Preston Idaho"
+        content="Preston Idaho">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link href="css/small.css" type="text/css" rel="stylesheet" />
+    <link href="css/medium.css" type="text/css" rel="stylesheet" />
+    <link href="css/large.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/weatherplus-logo-300.png" alt="Idaho Weather Plus Logo" id="headerimg">
+        <div id="headingdiv">
+            <h1>Idaho Weather Plus</h1>
+            <p id="slogan">When you need the weather, plus.</p>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="preston-4.htmll">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a href="">Strom Center</a></li>
+            <li><a href="">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston</h2>
+        <div class="divplaceholder">
+            <img is="weatherimg" src="img/weather.jpg" alt="picture of sunset on one side and thunderstorm on the other">
+        </div>
+        <div>
+            <h4>weather summary place holder</h4>
+            <ul>
+                <li>Place Holder</li>
+                <li>Place Holder</li>
+                <li>Place Holder</li>
+            </ul>
+        </div>
+        <div class="divplaceholder" id="5dayforcast">
+            <section id="forecastsection">
+                <div id="day1" class="forecast">
+                    <h4>Sunday</h4>
+                </div>
+                <div id="day2" class="forecast">
+                    <h4>Monday</h4>
+                </div>
+                <div id="day3" class="forecast">
+                    <h4>Tuesday</h4>
+                </div>
+                <div id="day4" class="forecast">
+                    <h4>Wednesday</h4>
+                </div>
+                <div id="day5" class="forecast">
+                    <h4>Thursday</h4>
+                </div>
+            </section>
+        </div>
+        <div class="divplaceholder">
+            <h2>Article</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quae laboriosam fugiat officia quam magnam
+                id illo asperiores! Sint, labore saepe dignissimos praesentium recusandae molestias quo ducimus quidem
+                ullam fuga? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur repellendus magnam
+                veritatis placeat dicta excepturi molestiae quibusdam aut voluptas, laudantium deserunt eveniet dolor
+                laborum modi quam alias voluptatibus, a doloribus!</p>
+                <img id="rainimg" src="img/rain.jpg" alt="rain">
+        </div>
+        <div class="divplaceholder">
+            <section id="map">
+                <img src="img/map place holder.jpg" alt="picture of a map">
+            </section>
+            <section id="contactsection">
+            <h2>Contact</h2>
+            <p>Contact Info will go here</p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="copyrightdate"></span> Sarah E. Rowley</p>
+        <p>Date: <span id="currentdate"> </span></p>
+        <script src="js/mainjs.js"></script>
+        <script src="../js/copyrightyear.js"></script>
+    </footer>
+</body>
+
+</html>
