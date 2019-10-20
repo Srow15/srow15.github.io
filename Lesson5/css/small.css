@@ -19,8 +19,8 @@ header h1 {
     padding: 20px;
 }
 
-#headerimg {
-    max-width: 160px;
+header img {
+    width: 200px;
 }
 
 header h1 {
