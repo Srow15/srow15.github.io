@@ -72,6 +72,10 @@ nav {
     display: block;
     padding: 10px;
 }
+.responsive #summary {
+    top: 345px;
+    left: 55px;
+}
 
 main {
     padding: 25px 10%;
@@ -99,6 +103,7 @@ main {
     top: 345px;
     left: 55px;
 }
+
 #summary h4{
     margin-bottom: 5px;
 }
