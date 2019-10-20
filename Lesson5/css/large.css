@@ -29,13 +29,20 @@
 		padding: 5px;
 		max-width: 90%;
 	}
+	#summary {
+		max-width: 150px;
+		position: absolute;
+		top: 330px;
+		left: 150px;
+	}
 
-	main div {
+
+	#forecastsection {
 		padding-left: 60px;
 	}
 
-	main h2 {
-		padding-left: 60px;
+	main h3 {
+		margin-bottom: 0;
 	}
 
 	footer {

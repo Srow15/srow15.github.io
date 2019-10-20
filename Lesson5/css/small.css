@@ -9,8 +9,7 @@ body {
 
 header {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
     background-color: #afb1b9;
     padding: 20px 40px;
 }
@@ -21,7 +20,7 @@ header h1 {
 }
 
 #headerimg {
-    max-width: 200px;
+    max-width: 160px;
 }
 
 header h1 {
@@ -79,62 +78,63 @@ main {
 
 #hero-summary {
     position: relative;
+    padding: 0;
 }
 
 #weather-img {
     margin: 0;
-    width: 90%
-    
+    width: 100%
 }
 
 #summary {
-    background-color: #afb1b9;
-    opacity: .8;
-    border: none;
+    background-color: rgba(175, 177, 185, 0.8);
+    border: 1px solid #192a5f;
     padding: 0px 5px;
-    max-width: 150px;
+    max-width: 30%;
+    height: 30%;
     position: absolute;
-    top: 330px;
-    left: 180px;
+    top: 345px;
+    left: 55px;
+}
+#summary h4{
+    margin-bottom: 5px;
 }
 
-#fivedayforcast{
+#fivedayforcast {
+    display: none;
+}
+
+
+#articlesection {
+    margin: 10px auto;
     padding-top: 5px;
-    background-color:rgba(255, 255, 5,0.8);
-    width: 75%;
-    margin: 0 auto;
-}
-
-#forecastsection {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-
-}
-#articlesection{
-    margin: 0 auto;
     text-align: left;
-    width: 90%;
+    width: 75%;
 }
-#articlediv{
+#articlesection h3{
+    margin: 50px 0 0px;
+}
+#articlediv {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
+
 #rainimg {
     width: 300px;
     padding: 5px;
 }
-#map-contact{
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-    margin: 0 auto;
+
+#map-contact {
+    display: none;
+
 }
-#mapph{
+
+#mapph {
     width: 50%;
 }
-#contact{
-    width: 50%;
+
+#contact {
+    width: 75%;
     text-align: center;
 
 }

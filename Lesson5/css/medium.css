@@ -16,4 +16,36 @@
         margin-top: 2px;
         padding-left: 20px;
     }
+    #summary h4{
+        margin-bottom: 10px;
+    }
+    #summary {
+       top: 330px;
+        left: 155px;
+    }
+    #fivedayforcast {
+        padding-top: 5px;
+        background-color: rgba(255, 255, 5, 0.8);
+        width: 75%;
+        margin: 20px auto 15px;
+    }
+    #articlediv {
+        flex-direction: row;
+    }
+    #forecastsection {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 90%;
+    
+    }
+    #weather-img {
+        width: 90%
+    }
+    #map-contact {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin: 0 auto;
+    }
 }
