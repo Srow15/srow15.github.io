@@ -35,18 +35,20 @@
     </nav>
     <main>
         <h2>Preston</h2>
-        <div class="divplaceholder">
-            <img is="weatherimg" src="img/weather.jpg" alt="picture of sunset on one side and thunderstorm on the other">
+        <div id="hero-summary">
+            <img id="weather-img" src="img/weather300.jpg"
+                alt="picture of sunset on one side and thunderstorm on the other">
         </div>
-        <div>
-            <h4>weather summary place holder</h4>
+        <div id="summary">
+            <h4>Weather Summary Place Holder</h4>
             <ul>
                 <li>Place Holder</li>
                 <li>Place Holder</li>
                 <li>Place Holder</li>
             </ul>
         </div>
-        <div class="divplaceholder" id="5dayforcast">
+        <div class="divplaceholder" id="fivedayforcast">
+            <h3>5 Day Forcast</h3>
             <section id="forecastsection">
                 <div id="day1" class="forecast">
                     <h4>Sunday</h4>
@@ -65,24 +67,29 @@
                 </div>
             </section>
         </div>
-        <div class="divplaceholder">
+        <section id="articlesection">
             <h2>Article</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quae laboriosam fugiat officia quam magnam
-                id illo asperiores! Sint, labore saepe dignissimos praesentium recusandae molestias quo ducimus quidem
-                ullam fuga? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur repellendus magnam
-                veritatis placeat dicta excepturi molestiae quibusdam aut voluptas, laudantium deserunt eveniet dolor
-                laborum modi quam alias voluptatibus, a doloribus!</p>
-                <img id="rainimg" src="img/rain.jpg" alt="rain">
-        </div>
-        <div class="divplaceholder">
-            <section id="map">
-                <img src="img/map place holder.jpg" alt="picture of a map">
-            </section>
-            <section id="contactsection">
-            <h2>Contact</h2>
-            <p>Contact Info will go here</p>
-            </section>
-        </div>
+            <div  id="articlediv">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quae laboriosam fugiat officia quam
+                    magnam
+                    id illo asperiores! Sint, labore saepe dignissimos praesentium recusandae molestias quo ducimus
+                    quidem
+                    ullam fuga? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur repellendus magnam
+                    veritatis placeat dicta excepturi molestiae quibusdam aut voluptas, laudantium deserunt eveniet
+                    dolor
+                    laborum modi quam alias voluptatibus, a doloribus!</p>
+                <img id="rainimg" src="img/rain300.jpg" alt="rain">
+            </div>
+        </section>
+        <section id="map-contact">
+            <div id="map">
+                <img id="mapph" src="img/map place holder.jpg" alt="picture of a map">
+            </div>
+            <div id="contactdiv">
+                <h2>Contact</h2>
+                <p>Contact Info will go here</p>
+            </div>
+        </section>
     </main>
     <footer>
         <p>&copy; <span id="copyrightdate"></span> Sarah E. Rowley</p>

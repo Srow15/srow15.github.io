@@ -73,16 +73,70 @@ nav {
 main {
     background-color: #afb1b9;
     padding: 25px 10%;
-}
-#weatherimg{
-    width: 10%
+    text-align: center;
+    margin: 0 auto;
 }
 
-#rainimg {
-    width:20%;
+#hero-summary {
+    position: relative;
 }
-#map {
-    width: 20%;
+
+#weather-img {
+    margin: 0;
+    width: 90%
+    
+}
+
+#summary {
+    background-color: #afb1b9;
+    opacity: .8;
+    border: none;
+    padding: 0px 5px;
+    max-width: 150px;
+    position: absolute;
+    top: 330px;
+    left: 180px;
+}
+
+#fivedayforcast{
+    padding-top: 5px;
+    background-color:rgba(255, 255, 5,0.8);
+    width: 75%;
+    margin: 0 auto;
+}
+
+#forecastsection {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+
+}
+#articlesection{
+    margin: 0 auto;
+    text-align: left;
+    width: 90%;
+}
+#articlediv{
+    display: flex;
+    flex-direction: row;
+}
+#rainimg {
+    width: 300px;
+    padding: 5px;
+}
+#map-contact{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+}
+#mapph{
+    width: 50%;
+}
+#contact{
+    width: 50%;
+    text-align: center;
+
 }
 
 footer {
