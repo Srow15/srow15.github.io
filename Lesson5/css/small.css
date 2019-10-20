@@ -13,7 +13,9 @@ header {
     background-color: #afb1b9;
     padding: 20px 40px;
 }
-
+#headerimg{
+    width: 120px;
+}
 header h1 {
     color: #ffff05;
     padding: 20px;
