@@ -1,7 +1,4 @@
 @media only screen and (min-width: 60em) {
-	#headerimg {
-		max-width: 80%;
-	}
 
 	header h1 {
 		margin-top: 60px;
@@ -30,16 +27,14 @@
 		max-width: 90%;
 	}
 	#summary {
-		max-width: 150px;
+		width: 150px;
 		position: absolute;
 		top: 330px;
 		left: 150px;
 	}
-
-
-	#forecastsection {
-		padding-left: 60px;
-	}
+	#articlediv {
+        flex-direction: row;
+    }
 
 	main h3 {
 		margin-bottom: 0;

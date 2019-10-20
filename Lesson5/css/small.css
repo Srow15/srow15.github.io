@@ -70,7 +70,6 @@ nav {
 }
 
 main {
-    background-color: #afb1b9;
     padding: 25px 10%;
     text-align: center;
     margin: 0 auto;
@@ -90,7 +89,7 @@ main {
     background-color: rgba(175, 177, 185, 0.8);
     border: 1px solid #192a5f;
     padding: 0px 5px;
-    max-width: 30%;
+    width: 30%;
     height: 30%;
     position: absolute;
     top: 345px;
