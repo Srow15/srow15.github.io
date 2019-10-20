@@ -61,7 +61,11 @@ nav {
 
 .navigation a:hover {
     color: #ffff05;
+    text-decoration: underline;
     background-color: #192a5f;
+}
+.navigation a:active{
+    color: #ffff05;
 }
 
 .responsive li {
