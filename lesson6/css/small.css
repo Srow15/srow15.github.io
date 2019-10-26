@@ -14,6 +14,9 @@ header {
 #headerimg{
     width: 120px;
 }
+#headingdiv {
+    text-align: center;
+}
 header h1 {
     color: #ffff05;
     padding: 20px;
@@ -42,6 +45,7 @@ nav {
     list-style: none;
     text-align: center;
     padding: 0;
+    margin: 0;
 }
 
 .navigation li:first-child {
@@ -50,6 +54,7 @@ nav {
 
 .navigation li {
     display: none;
+    padding: 10px;
 }
 
 .navigation a {
@@ -59,13 +64,13 @@ nav {
     color: #ffffff;
 }
 
-.navigation a:hover {
-    color: #ffff05;
+.navigation li:hover {
+    color: #192a5f;
     text-decoration: underline;
-    background-color: #192a5f;
+    background-color: #ffff05;
 }
-.navigation a:active{
-    color: #ffff05;
+.navigation li.active{
+    backfround-color: #555555;
 }
 
 .responsive li {
@@ -92,10 +97,9 @@ main {
     background-color: rgba(175, 177, 185, 0.8);
     border: 1px solid #192a5f;
     padding: 0px 5px;
-    width: 30%;
     position: absolute;
-    top: 345px;
-    left: 55px;
+    top: 10px;
+    left: 12px;
 }
 
 #summary h4{
@@ -126,13 +130,9 @@ main {
     padding: 5px;
 }
 
-#map-contact {
-    display: none;
-
-}
-
 #mapph {
     width: 50%;
+    display: none;
 }
 
 #contact {

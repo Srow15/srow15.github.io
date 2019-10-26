@@ -15,21 +15,21 @@
 </head>
 
 <body>
+    <div>
+        <span id="banner"></span>
+    </div>
     <header>
         <img src="img/weatherplus-logo-300.png" alt="Idaho Weather Plus Logo" id="headerimg">
         <div id="headingdiv">
             <h1>Idaho Weather Plus</h1>
             <p id="slogan">When you need the weather, plus.</p>
         </div>
-        <div>
-            <span id="showBanner"></span>
-        </div>
     </header>
     <nav>
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="">Home</a></li>
-            <li><a href="preston-4.htmll">Preston</a></li>
+            <li class="active"><a href="preston-4.htmll">Preston</a></li>
             <li><a href="">Soda Springs</a></li>
             <li><a href="">Fish Haven</a></li>
             <li><a href="">Strom Center</a></li>
@@ -38,19 +38,18 @@
     </nav>
     <main>
         <h2>Preston</h2>
-            <picture id="hero-summary">
-                <img id="hero-img" src="img/herodefult.jpg" alt="landscape of grassie field and sun"
-                 srcset="img/herolarge.jpg 1000w, img/heromedium.jpg 800w, img/herosmall.jpg 400w"
-                 sizes="(min-width:1024px) 1000px, 100vw">
-             </picture>
-        </div>
+        <picture id="hero-summary">
+            <img id="hero-img" src="img/herodefult.jpg" alt="landscape of grassie field and sun"
+                srcset="img/herolarge.jpg 1000w, img/heromedium.jpg 800w, img/herosmall.jpg 400w"
+                sizes="(min-width:1024px) 1000px, 100vw">
+        </picture>
         <div id="summary">
-            <h4>Weather Summary Place Holder</h4>
-            <p>Currently: <span id="currently"></span></p>
-            <p>High: <span id="high"></span></p>
-            <p>Wind Chil: <span id="windchil"></span></p>
-            <p>Humidity: <span id="humidity"></span></p>
-            <p>Wind Speed: <span id="windspeed"></span></p>
+            <p>Weather Now: <span id="now">Sunny</span></p>
+            <p>High: <span id="high">49&#176;F</span></p>
+            <p> Humidity: <span id="humidity">5&#37;</span></p>
+            <p> Wind Speed: <span id="speed">6mph</span> </p>
+            <p>Wind-Chill: <span id="windchill">&#176;F</span></p>
+        </div>
         </div>
         <div class="divplaceholder" id="fivedayforcast">
             <h3>5 Day Forcast</h3>
@@ -111,6 +110,7 @@
             }
         });
     </script>
+    <script src="js/windchill.js"></script>
 </body>
 
 </html>
