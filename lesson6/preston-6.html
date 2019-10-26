@@ -2,7 +2,7 @@
 <html lang="en-us">
 
 <head>
-    <title>Presrton Idaho Weather</title>
+    <title>Preston Idaho Weather</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="This page gives the weather, a five day forcast, and artcle about the city of Preston Idaho"
@@ -38,9 +38,11 @@
     </nav>
     <main>
         <h2>Preston</h2>
-        <div id="hero-summary">
-            <img id="weather-img" src="img/cit230_image_franklinoptimized.jpg"
-                alt="hero image provided by class">
+            <picture id="hero-summary">
+                <img id="hero-img" src="img/herodefult.jpg" alt="landscape of grassie field and sun"
+                 srcset="img/herolarge.jpg 1025w, img/heromedium.jpg 800w, img/herosmall.jpg 414w"
+                 sizes="(min-width:1024px) 800px, 100vw">
+             </picture>
         </div>
         <div id="summary">
             <h4>Weather Summary Place Holder</h4>
