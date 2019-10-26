@@ -11,12 +11,11 @@ header {
     background-color: #afb1b9;
     padding: 20px 40px;
 }
-#headerimg{
-    width: 120px;
-}
+
 #headingdiv {
     text-align: center;
 }
+
 header h1 {
     color: #ffff05;
     padding: 20px;
@@ -65,11 +64,12 @@ nav {
 }
 
 .navigation li:hover {
-    color: #192a5f;
-    text-decoration: underline;
+    text-decoration: none;
     background-color: #ffff05;
+    color: #192a5f;
 }
-.navigation li.active{
+
+.navigation li.active {
     background-color: #555555;
 }
 
@@ -77,28 +77,26 @@ nav {
     display: block;
     padding: 10px;
 }
+
 main {
     padding: 25px 10%;
     text-align: center;
     margin: 0 auto;
 }
 
-#hero-summary {
+#herodiv {
     position: relative;
-    padding: 0;
+    text-align: center;
+
 }
 
 #summary {
+    position: absolute;
+    top: 10px;
+    left: 115px;
     background-color: rgba(175, 177, 185, 0.8);
     border: 1px solid #192a5f;
     padding: 0px 5px;
-    position: absolute;
-    top: 10px;
-    left: 12px;
-}
-
-#summary h4{
-    margin-bottom: 5px;
 }
 
 #fivedayforcast {
@@ -112,9 +110,11 @@ main {
     text-align: left;
     width: 75%;
 }
-#articlesection h3{
+
+#articlesection h3 {
     margin: 50px 0 0px;
 }
+
 #articlediv {
     display: flex;
     flex-direction: column;
