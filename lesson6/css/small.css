@@ -70,18 +70,13 @@ nav {
     background-color: #ffff05;
 }
 .navigation li.active{
-    backfround-color: #555555;
+    background-color: #555555;
 }
 
 .responsive li {
     display: block;
     padding: 10px;
 }
-.responsive #summary {
-    top: 345px;
-    left: 55px;
-}
-
 main {
     padding: 25px 10%;
     text-align: center;
