@@ -1,0 +1,160 @@
+body {
+    margin: 0 auto;
+    font-family: 'Rokkitt', serif;
+    color: #192a5f;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #afb1b9;
+    padding: 20px 40px;
+}
+#headerimg{
+    width: 120px;
+}
+header h1 {
+    color: #ffff05;
+    padding: 20px;
+}
+
+header img {
+    width: 200px;
+}
+
+header h1 {
+    padding: 0px 5px;
+}
+
+header p {
+    margin-top: 2px;
+    padding-left: 5px;
+}
+
+nav {
+    margin: 0 auto;
+    background-color: #192a5f;
+    padding: 3px;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navigation a:hover {
+    color: #ffff05;
+    text-decoration: underline;
+    background-color: #192a5f;
+}
+.navigation a:active{
+    color: #ffff05;
+}
+
+.responsive li {
+    display: block;
+    padding: 10px;
+}
+.responsive #summary {
+    top: 345px;
+    left: 55px;
+}
+
+main {
+    padding: 25px 10%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#hero-summary {
+    position: relative;
+    padding: 0;
+}
+
+#summary {
+    background-color: rgba(175, 177, 185, 0.8);
+    border: 1px solid #192a5f;
+    padding: 0px 5px;
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    top: 345px;
+    left: 55px;
+}
+
+#summary h4{
+    margin-bottom: 5px;
+}
+
+#fivedayforcast {
+    display: none;
+}
+
+
+#articlesection {
+    margin: 10px auto;
+    padding-top: 5px;
+    text-align: left;
+    width: 75%;
+}
+#articlesection h3{
+    margin: 50px 0 0px;
+}
+#articlediv {
+    display: flex;
+    flex-direction: column;
+}
+
+#rainimg {
+    width: 300px;
+    padding: 5px;
+}
+
+#map-contact {
+    display: none;
+
+}
+
+#mapph {
+    width: 50%;
+}
+
+#contact {
+    width: 75%;
+    text-align: center;
+
+}
+
+footer {
+    background-color: #192a5f;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Varela Round', sans-serif;
+    color: #192a5f;
+}
