@@ -1,22 +1,25 @@
 
-function newChill(){
-    var temp = parseFloat(document.getElementById('high').innerHTML);
-    var speed = parseFloat(document.getElementById('speed').innerHTML);
-    var chill = windChill(temp, speed);
-    //var display = result;
+function windChill() {
     
-    document.getElementById('windchill').innerHTML = chill;
+
+    var temp = document.getElementById("high").innerHTML;
+    var windSpeed = document.getElementById("speed").innerHTML;
+
+    if (temp <= 50 && windSpeed >= 3) {
+        
+        var a = 35.75 + (0.6215 * temp);
+        var b = 35.75 * Math.pow(windSpeed, 0.16);
+        var c = 0.4275 * temp * Math.pow(windSpeed, 0.16);
+        var d = a - b + c;
+
+        document.getElementById("windchill").innerHTML = d.toFixed(0);
     }
-    
-    
-    
-        function windchill(temp, speed){
-            var f = 'sarah';
-            if (temp <= 50 && speed > 3) {  
-                f = 32.74 + (0.6215 * temp)-(35.75 * Math.pow(speed,0.16)) + (0.4275 * temp * Math.pow(speed,0.16));
-            }
-            return f;
-    
+    else {
+        document.getElementById("windchill").innerHTML = "N/A" ;
     }
+
+} 
+
+windChill()
     
 
