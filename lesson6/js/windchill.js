@@ -2,7 +2,7 @@
 function newChill(){
     var temp = parseFloat(document.getElementById('high').innerHTML);
     var speed = parseFloat(document.getElementById('speed').innerHTML);
-    var chill = windChill (temp, speed);
+    var chill = windChill(temp, speed);
     //var display = result;
     
     document.getElementById('windchill').innerHTML = chill;
