@@ -10,15 +10,16 @@ picture {
     margin: 15px;
 
 }
+
 h1 {
-	font-family: 'Pacifico', cursive;
+    font-family: 'Pacifico', cursive;
     color: #192a5f;
 
-picture img[data-src] {
-    filter: blur(0.2em);
-}
+    picture img[data-src] {
+        filter: blur(0em);
+    }
 
-picture img {
-    filter: blur(0em);
-    transition: filter 0.5s;
-}
+    picture img {
+        filter: blur(0em);
+        transition: filter 0.5s;
+    }
