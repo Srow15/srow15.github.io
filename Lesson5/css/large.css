@@ -44,4 +44,7 @@
 		margin: auto;
 		max-width: 90%;
 	}
+	#forecastsection{
+		background-color: black;
+	}
 }
