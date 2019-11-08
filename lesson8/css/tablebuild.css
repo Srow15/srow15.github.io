@@ -9,12 +9,14 @@ body{
     width: 265px;
     box-shadow: 7px 10px 7px #628ca6;
 }
+table thead th{
+    color:black;
+    font-size: 26px;
+    background-color: #7fbac2;
+}
 table, td, th{
     border: solid 1px #C6C6C6; 
     border-collapse: collapse;
-}
-tr{
-    background-color: #e7f0ed;
 }
 table th{
     background-color: #628ca6;
@@ -22,18 +24,12 @@ table th{
     color: white;
     padding: 10px;
 }
-table thead th{
-    color:black;
-    font-size: 26px;
-    background-color: #7fbac2;
+tr{
+    background-color: #e7f0ed;
 }
 td{
     padding: 5px;
     text-align: center;
-}
-#dark{
-    background-color: #628ca6;
-    color:white;
 }
 table tr:nth-child(even){
     background-color: #e7ffed;
@@ -41,4 +37,8 @@ table tr:nth-child(even){
 table tfoot tr td{
     font-size: 14px;
     background-color: #7fbac2;;
+}
+#dark{
+    background-color: #628ca6;
+    color:white;
 }
