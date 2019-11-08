@@ -11,8 +11,9 @@ html {
 body {
     margin: 0 auto;
     background-color: #e7f0ed;
-    color: black;
-    width: 265px;
+    padding: 20px;
+}
+table {
     box-shadow: 7px 10px 7px #628ca6;
 }
 
@@ -49,7 +50,7 @@ table tr:nth-child(even) {
 }
 
 table tfoot tr td {
-    font-size: 14px;
+    font-size: 12px;
     background-color: #7fbac2;
     ;
 }
