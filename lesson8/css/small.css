@@ -108,14 +108,25 @@ footer {
 
 #stormcenterpg {
     text-align: left;
+    max-width: 90%;
+}
+#stormheder{
+    text-align: center;
 }
 fieldset {
     border: solid 2px #afb1b9;
-    margin: 20px;
+    margin: 20px auto;
     padding: 20px 0px 30px 75px;
+    max-width: 500px;
 }
 input, select{
     display:block;
 }
+input #danger {
+    display: flex;
+    flex-direction: row;
+}
+
+
 
 
