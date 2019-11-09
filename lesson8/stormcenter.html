@@ -32,7 +32,7 @@
             <li class="active"><a href="../lesson7/gallery-7.html">Gallery</a></li>
         </ul>
     </nav>
-    <main>
+    <main id="stormcenterpg">
         <h1>Storm Center</h1>
         <form method="get" action="thanks.html">
             <fieldset>
@@ -83,22 +83,20 @@
                         <option value="Soda Springs">Soda Springs</option>
                     </select>
                 </label>
-                <label class="detail">Are You in Danger?
-                    <div id="radio-div">
-                        Yes<input type="radio" name="danger" value="danger">
+                <label class="detail">Are You in Danger?</label>
+                <label class="detail">Yes<input type="radio" name="danger" value="danger">
                 </label>
                 <label class="detail">No<input type="radio" name="danger" value="nodanger">
                 </label>
-                <label id="radio" class="detail">Maybe<input type="radio" name="danger" value="maybedanger">
+                <label class="detail">Maybe<input type="radio" name="danger" value="maybedanger">
                 </label>
-                </div>
             </fieldset>
             <fieldset>
                 <legend>
                     Additional Information or Comments
                 </legend>
-                <label class="comment">Details:<input id="textbox" type="textarea" name="comments"
-                        placeholder="This storm ripped the roof off my house!">
+                <label id="textarea" class="comment">Details:<input id="textbox" type="textarea" name="comments"
+                        placeholder="It's raining cats and dogs">
                 </label>
                 <label class="comment">
                     <input type="submit" value="Send Report">

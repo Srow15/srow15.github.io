@@ -106,7 +106,16 @@ footer {
 
 /*Storm Center*/
 
+#stormcenterpg {
+    text-align: left;
+}
+fieldset {
+    border: solid 2px #afb1b9;
+    margin: 20px;
+    padding: 20px 0px 30px 75px;
+}
 input, select{
     display:block;
 }
+
 
