@@ -49,7 +49,6 @@ nav {
     margin: 0 auto;
     background-color: #192a5f;
     padding: 3px;
-
 }
 
 .navigation {
@@ -57,7 +56,6 @@ nav {
     text-align: center;
     padding: 0;
     margin: 0;
-    
 }
 
 .navigation li:first-child {
@@ -73,14 +71,13 @@ nav {
     display: block;
     text-align: center;
     text-decoration: none;
-
-
+    color: #ffffff;
 }
 
 .navigation li:hover {
-    color: #192a5f;
     text-decoration: none;
     background-color: #ffff05;
+    color: #192a5f;
 }
 
 .navigation li.active {

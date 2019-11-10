@@ -2,16 +2,15 @@
 <html lang="en-us">
 
 <head>
-    <title>Presrton Idaho Weather</title>
+    <title>Storm Center</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="This page gives the weather, a five day forcast, and artcle about the city of Preston Idaho"
-        content="Preston Idaho">
-    <link rel="shortcut icon" href="img/favicon.ico">
+    <meta name="This webpage allows for the user to enter stroms in their area" content="Storm Center">
+    <link rel="stylesheet" href="../css/normalize.css">
     <link href="css/small.css" type="text/css" rel="stylesheet" />
     <link href="css/medium.css" type="text/css" rel="stylesheet" />
     <link href="css/large.css" type="text/css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/normalize.css">
+
 </head>
 
 <body>
@@ -26,34 +25,33 @@
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="">Home</a></li>
-            <li><a href="preston-4.htmll">Preston</a></li>
+            <li><a href="../lesson6/preston-6.html">Preston</a></li>
             <li><a href="">Soda Springs</a></li>
             <li><a href="">Fish Haven</a></li>
-            <li><a href="../lesson8/stormcenter.html">Strom Center</a></li>
-            <li><a href="">Gallery</a></li>
+            <li class="active"><a href="../lesson8/stormcenter.html">Strom Center</a></li>
+            <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
         </ul>
     </nav>
-    <main>
-        <h2>Preston</h2>
-        <div class="divplaceholder">
-            <p>weather summary place holder</p>
-        </div>
-        <div class="divplaceholder" id="5dayforcast">
-            <p>5 day forcast place holder</p>
-        </div>
-        <div class="divplaceholder">
-            <p>Article place holder</p>
-        </div>
-        <div class="divplaceholder">
-            <p>Contact place holder</p>
-        </div>
+    <main id="thanks">
+        <p>
+            <strong>Your storm has been submitted, thank you!</strong>
+        </p>
     </main>
     <footer>
         <p>&copy; <span id="copyrightdate"></span> Sarah E. Rowley</p>
         <p>Date: <span id="currentdate"> </span></p>
         <script src="js/mainjs.js"></script>
         <script src="../js/copyrightyear.js"></script>
+        <script src="js/rating.js"></script>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ["Varela Round", "Rokkitt"]
+            }
+        });
+    </script>
 </body>
 
 </html>
