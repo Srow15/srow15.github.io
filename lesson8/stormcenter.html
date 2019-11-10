@@ -37,7 +37,7 @@
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>
-                    Who's Reporting?
+                    <h3>Who's Reporting?</h3>
                 </legend>
                 <label class="info">*First & Last Name: <input type="text" name="flname" required
                         pattern="[A-Za-z].{5,}"></label>
@@ -48,7 +48,7 @@
             </fieldset>
             <fieldset>
                 <legend>
-                    Report Storm Information
+                   <h3> Report Storm Information</h3>
                 </legend>
                 <label class="data">Date:<input type="date" name="date"></label>
                 <label class="storm">Storm Type:<input list="storms" id="stormtype" name="stormtype">
@@ -64,6 +64,7 @@
                         step="1" list="marks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="ratingvalue">10</span>
                 </label>
+                <label>
                 <datalist id="marks">
                     <option value="1"></option>
                     <option value="2"></option>
@@ -76,7 +77,8 @@
                     <option value="9"></option>
                     <option value="10"></option>
                 </datalist>
-                <label class="detail"> Storm Region:<select name="region">
+            </label> <br>
+                <label class="detail">Storm Region:<select name="region">
                         <option disabled>Select Region</option>
                         <option value="Fish Haven">Fish Haven</option>
                         <option value="Preston">Preston</option>
@@ -91,13 +93,13 @@
             </fieldset>
             <fieldset>
                 <legend>
-                    Additional Information or Comments
+                    <h3>Additional Information or Comments</h3>
                 </legend>
                 <label id="textarea" class="comment">Details:<input id="textbox" type="textarea" name="comments"
                         placeholder="It's raining cats and dogs">
                 </label>
                 <label class="comment">
-                    <input type="submit" value="Send Report">
+                    <input id="submit" type="submit" value="Send Report">
                 </label>
             </fieldset>
         </form>
