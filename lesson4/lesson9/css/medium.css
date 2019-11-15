@@ -1,0 +1,7 @@
+@media only screen and (min-width: 32.5em) {
+/*every page*/
+div {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+}
