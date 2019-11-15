@@ -24,12 +24,12 @@ card.appendChild(p);
 
 document.querySelector('div.cards').appendChild(card);
 
-let image = document.createElement('image');
+let img = document.createElement('img');
 
-image.setAttribute('src', prophets[i].imageurl);
-image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + '-' + prophets[i].order);
+img.setAttribute('src', prophets[i].imageurl);
+img.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + '-' + prophets[i].order);
 
-card.appendChild(image);
+card.appendChild(img);
 
 document.querySelector('div.cards').appendChild(card);
 
