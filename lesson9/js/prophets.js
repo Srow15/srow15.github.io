@@ -16,11 +16,18 @@ card.appendChild(h2);
 
 document.querySelector('div.cards').appendChild(card);
 
-let p = document.createElement('p');
+let p1 = document.createElement('p');
 
-p.textContent = 'Date of Birth' + ' ' + prophets[i].birthdate + ' ' + 'Place of Birth' + ' ' + prophets[i].birthplace;
+p1.textContent = 'Date of Birth' + ' ' + prophets[i].birthdate;
+card.appendChild(p1);
 
-card.appendChild(p);
+document.querySelector('div.cards').appendChild(card);
+
+let p2 = document.createElement('p');
+
+p2.textContent = 'Place of Birth' + ' ' + prophets[i].birthplace;
+
+card.appendChild(p2);
 
 document.querySelector('div.cards').appendChild(card);
 
