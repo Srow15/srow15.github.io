@@ -101,6 +101,7 @@ footer {
     text-align: center;
 }
 
+
 /*home page */
 
 #storydiv {
@@ -138,6 +139,14 @@ main section img{
     box-shadow: 2px 2px 5px black;
 }
 
+/*just for this assignment*/
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: #ffff05;
+    text-decoration: none;
+}
 
 
 
