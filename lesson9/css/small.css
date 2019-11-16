@@ -103,19 +103,18 @@ footer {
 
 /*home page */
 
-#story {
-    position: relative;
+#storydiv {
+
+    margin: auto;
     display: block;
+    position: relative;
 }
 
 #storytext {
-    position: absolute;
-    top: 10px;
-    left: 12px;
-    background-color: rgba(175, 177, 185, 0.8);
+    display: block;
+    background-color: rgba(175, 177, 185, 1);
     border: 1px solid #192a5f;
-    padding: 0px 5px;
-    width: 80px;
+    padding: 0px 10px;
 }
 
 main div{
@@ -123,11 +122,20 @@ main div{
     grid-gap: 5px;
     grid-template-columns: 1fr;
     padding: 5px;
+    margin: 0 auto;
 }
 
 main section{
     background-color: #afb1b9;
     padding: 20px;
+    font-size: 15px;
+    border: 1px solid #192a5f;
+}
+
+main section img{
+    max-width: 200px;
+    width: 100%;
+    box-shadow: 2px 2px 5px black;
 }
 
 

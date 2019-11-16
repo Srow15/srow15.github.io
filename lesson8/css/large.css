@@ -14,9 +14,10 @@
 		flex: 1 1 100%;
     }
     footer {
-		margin: auto;
-		max-width: 90%;
-    }
+      margin: auto;
+      max-width: 900;
+      width: 100%;
+      }
     
     /*galerry page*/
     

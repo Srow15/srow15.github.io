@@ -14,14 +14,20 @@
 		flex: 1 1 100%;
     }
     footer {
-		margin: auto;
-		max-width: 90%;
-    }
+      margin: auto;
+      max-width: 900px;
+      width: 100%;
+      }
     
     /*home page*/
     
 main div{
       grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: 1fr;
     }
+    #storytext {
+      top: 250px;
+      left: 350px;}
+}
+.homepage {
+  max-width: 900px;
 }

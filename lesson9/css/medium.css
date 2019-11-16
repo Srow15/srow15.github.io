@@ -15,5 +15,10 @@ header p {
 main div{
     grid-template-columns: 1fr 1fr;
 }
+#storytext {
+    position: absolute;
+    top: 175px;
+    left: 125px;}
+    box-shadow: 7px 7px 10px black;
 
 }
