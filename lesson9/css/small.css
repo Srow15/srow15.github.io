@@ -101,29 +101,11 @@ footer {
     text-align: center;
 }
 
-/*Storm Center*/
-
-#stormcenterpg {
-    text-align: left;
-    max-width: 90%;
-}
-#stormheder{
-    text-align: center;
-}
-fieldset {
-    border: solid 2px #192a5f;
-    margin: 20px auto;
-    padding: 20px 0px 30px 75px;
-    max-width: 500px;
-}
-input, select{
-    display:block;
-    background-color: #afb1b9;
-    padding: 5px;
-}
-input #danger {
-    display: flex;
-    flex-direction: row;
+/*home page */
+main div{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr;
 }
 
 
