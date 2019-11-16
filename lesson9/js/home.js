@@ -8,6 +8,7 @@ fetch(requestURL)
         const towns = jsonObject['towns'];
         for (let i = 0; i < towns.length; i++) {
 
+            let article = document.createElement('article');
             let card = document.createElement('section');
             let h1 = document.createElement('h1');
             let h3 = document.createElement('h3');
@@ -26,14 +27,17 @@ fetch(requestURL)
             img.setAttribute('src', 'img/' + towns[i].photo);
             img.setAttribute('alt', towns[i].name);
             
-            card.appendChild(h1);
-            card.appendChild(h3);
-            card.appendChild(founded);
-            card.appendChild(population);
-            card.appendChild(rainfall);
+            article.appendChild(h1);
+            article.appendChild(h3);
+            article.appendChild(founded);
+            article.appendChild(population);
+            article.appendChild(rainfall);
+            article.classList.add("info");
+            img.classList.add("homeimg")
+            card.appendChild(article);
             card.appendChild(img);
+            document.querySelector('div.homepage').appendChild(card)
 
-            document.querySelector('div.homepage').appendChild(card);
             }
         }
 

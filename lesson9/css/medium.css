@@ -12,9 +12,18 @@ header p {
     padding-left: 20px;
 }
 /*home page*/
-main div{
-    grid-template-columns: 1fr 1fr;
+article{
+    width: 100%;
 }
+main section{
+    display: flex;
+    padding: 15px 50px;
+}
+
+main section:nth-child(even){
+    flex-direction: row-reverse;
+}
+
 #storytext {
     position: absolute;
     top: 175px;
