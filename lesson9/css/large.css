@@ -24,6 +24,7 @@
 
   main div{
     grid-template-columns: 1fr 1fr 1fr;
+    max-width: 900px;
   }
   main section{
     display: initial;
@@ -35,7 +36,7 @@ main section:nth-child(even){
 
   #storytext {
     top: 250px;
-    left: 350px;
+    left: 150px;
   }
 }
 
