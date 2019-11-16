@@ -25,7 +25,7 @@ fetch(requestURL)
             rainfall.textContent = 'Annual Rain Fall:' + ' ' + towns[i].averageRainfall;
             img.setAttribute('src', towns[i].photo);
             img.setAttribute('alt', towns[i].name);
-            }
+            
             card.appendChild(h1);
             card.appendChild(h3);
             card.appendChild(founded);
@@ -34,7 +34,7 @@ fetch(requestURL)
             card.appendChild(img);
 
             document.querySelector('div.homepage').appendChild(card);
-
+            }
         }
 
 

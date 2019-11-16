@@ -102,6 +102,22 @@ footer {
 }
 
 /*home page */
+
+#story {
+    position: relative;
+    display: block;
+}
+
+#storytext {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    background-color: rgba(175, 177, 185, 0.8);
+    border: 1px solid #192a5f;
+    padding: 0px 5px;
+    width: 80px;
+}
+
 main div{
     display: grid;
     grid-gap: 5px;
@@ -114,21 +130,7 @@ main section{
     padding: 20px;
 }
 
-main section:first-child {
-    display: none;
-}
-main section:third-child {
-    display: none;
-}
-main section:nth-child(3)  {
-    display: none;
-}
-main section:nth-child(4)  {
-    display: none;
-}
-main section:nth-child(7)  {
-    display: none;
-}
+
 
 
 
