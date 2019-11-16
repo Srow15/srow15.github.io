@@ -1,7 +1,22 @@
 @media only screen and (min-width: 32.5em) {
 /*every page*/
-div {
+header {
+    justify-content: center;
+}
+
+header h1 {
+    padding: 0px 20px;
+}
+
+header p {
+    padding-left: 20px;
+}
+/*gallery page*/
+
+    .griddiv{
+    display: grid;
+    grid-gap: 15px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 }

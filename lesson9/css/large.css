@@ -1,7 +1,29 @@
 @media only screen and (min-width: 60em) {
 
-  div {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    /*every page*/
+    .navigation {
+		display: flex;
+	}
+
+	.navigation li:first-child {
+		display: none;
+	}
+
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+    }
+    footer {
+		margin: auto;
+		max-width: 90%;
+    }
+    
+    /*galerry page*/
+    
+.griddiv{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 }
