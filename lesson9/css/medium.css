@@ -1,33 +1,36 @@
 @media only screen and (min-width: 32.5em) {
-/*every page*/
-header {
-    justify-content: center;
-}
 
-header h1 {
-    padding: 0px 20px;
-}
+    /*every page*/
+    header {
+        justify-content: center;
+    }
 
-header p {
-    padding-left: 20px;
-}
-/*home page*/
-article{
-    width: 100%;
-}
-main section{
-    display: flex;
-    padding: 15px 50px;
-}
+    header h1 {
+        padding: 0px 20px;
+    }
 
-main section:nth-child(even){
-    flex-direction: row-reverse;
-}
+    header p {
+        padding-left: 20px;
+    }
 
-#storytext {
-    position: absolute;
-    top: 175px;
-    left: 125px;}
-    box-shadow: 7px 7px 10px black;
+    /*home page*/
+    article {
+        width: 100%;
+    }
 
+    main section {
+        display: flex;
+        padding: 15px 50px;
+    }
+
+    main section:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+    #storytext {
+        position: absolute;
+        top: 175px;
+        left: 125px;
+        box-shadow: 7px 7px 10px black;
+    }
 }
