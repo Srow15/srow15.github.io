@@ -106,9 +106,29 @@ main div{
     display: grid;
     grid-gap: 5px;
     grid-template-columns: 1fr;
+    padding: 5px;
 }
 
+main section{
+    background-color: #afb1b9;
+    padding: 20px;
+}
 
+main section:first-child {
+    display: none;
+}
+main section:third-child {
+    display: none;
+}
+main section:nth-child(3)  {
+    display: none;
+}
+main section:nth-child(4)  {
+    display: none;
+}
+main section:nth-child(7)  {
+    display: none;
+}
 
 
 

@@ -9,7 +9,7 @@ fetch(requestURL)
         for (let i = 0; i < towns.length; i++) {
 
             let card = document.createElement('section');
-            let h2 = document.createElement('h2');
+            let h1 = document.createElement('h1');
             let h3 = document.createElement('h3');
             let founded = document.createElement('p');
             let population = document.createElement('p');
@@ -18,7 +18,7 @@ fetch(requestURL)
 
             if (towns[i].name == "Fish Haven" || towns[i].name == "Soda Springs" || towns[i].name == "Preston")
 
-            {h2.textContent = towns[i].name;
+            {h1.textContent = towns[i].name;
             h3.textContent = towns[i].motto;
             founded.textContent = 'Year Founded:' + ' ' + towns[i].yearFounded;
             population.textContent = 'Population:' + ' ' + towns[i].currentPopulation;
@@ -26,7 +26,7 @@ fetch(requestURL)
             img.setAttribute('src', towns[i].photo);
             img.setAttribute('alt', towns[i].name);
             }
-            card.appendChild(h2);
+            card.appendChild(h1);
             card.appendChild(h3);
             card.appendChild(founded);
             card.appendChild(population);
