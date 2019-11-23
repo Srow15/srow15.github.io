@@ -15,8 +15,6 @@
 
 <body>
     <header>
-
-    </header>
     <nav>
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
@@ -28,12 +26,16 @@
             <li class="active"><a href="">Contact</a></li>
         </ul>
     </nav>
+    <button type="button">Log in</button>
+    </header>
     <main>
-        <section id="contact1"> 
+        <section id="contact1">
             <label class="info">Full Name: <input type="text" name="flname" pattern="[A-Za-z].{5,}"></label>
             <label class="info">Phone Number:<input type="tel" name="phone"></label>
-            <label class="info">Email:<input type="email" name="email" placeholder="http://www.myemaill@weatherplus.com"></label>
-            <label id="textarea" class="comment">Details:<input id="textarea" type="text" name="comments" placeholder="Please leave us a comment"></label>
+            <label class="info">Email:<input type="email" name="email"
+                    placeholder="http://www.myemaill@weatherplus.com"></label>
+            <label id="textarea" class="comment">Details:<input id="textarea" type="text" name="comments"
+                    placeholder="Please leave us a comment"></label>
             <input id="submit" type="submit" value="Send Report">
         </section>
         <section id="contact2">

@@ -15,44 +15,52 @@
 
 <body>
     <header>
-
+        <img href="https://www.melaleuca.com/Images/Melaleuca_Logo_white.svg" alt="melaleuca logo">
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li class="active"><a href="">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="health.html">Your Health</a></li>
+                <li><a href="enviorment.html">Your Enviorment</a></li>
+                <li><a href="member.html">Become a Member</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="loginbutton" type="button">Log in</button>
     </header>
-    <nav>
-        <ul class="navigation">
-            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li class="active"><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Your Health</a></li>
-            <li><a href="">Your Enviorment</a></li>
-            <li><a href="">Become a Member</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
-    </nav>
     <main id="home">
         <div class="homecolumn" id="column1">
-            <section class="homebox" id="about">
-                <p>About Melaleuca</p>
-            </section>
-            <section class="homebox" id="health">
-                <p>Your Health</p>
-            </section>
+            <a href="enviorment.html">
+                <section class="homebox" id="enviorment">
+                    <h2>Your Enviorment</h2>
+                </section>
+            </a>
+            <a href="about.html">
+                <section class="homebox" id="about">
+                    <h2>About Melaleuca</h2>
+                </section>
+            </a>
         </div>
         <div class="homecolumn" id="column2">
             <section id="wellness">
                 <h1>Wellness</h1>
-                <h2>Improvement that enhances your experience and helps you how to help the environment.</h2>
-                <p>Become a Member Today</p>
+                <h3>Enhances your experience and teach you how to help the environment.</h3>
+                <button id="memberbutton" type="button">Become a Member Today</button>
             </section>
         </div>
         <div class="homecolumn" id="column3">
-            <section class="homebox" id="enviorment">
-                <p>Your Enviorment</p>
-            </section>
-            <section class="homebox" id="contact">
-                <p>Contact Us</p>
-            </section>
+            <a href="health.html">
+                <section class="homebox" id="health">
+                    <h2>Your Health</h2>
+                </section>
+            </a>
+            <a href="contact.html">
+                <section class="homebox" id="contact">
+                    <h2>Contact Us</h2>
+                </section>
+            </a>
         </div>
-
     </main>
 
     <footer>
