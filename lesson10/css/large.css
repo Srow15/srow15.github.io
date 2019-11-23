@@ -1,0 +1,34 @@
+@media only screen and (min-width: 60em) {
+
+	.navigation {
+		display: flex;
+	}
+
+	.navigation li:first-child {
+		display: none;
+	}
+
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+
+	main {
+		margin: auto;
+		padding: 5px;
+		max-width: 90%;
+	}
+
+	#articlediv {
+        flex-direction: row;
+    }
+
+	main h3 {
+		margin-bottom: 0;
+	}
+
+	footer {
+		margin: auto;
+		max-width: 90%;
+	}
+}
