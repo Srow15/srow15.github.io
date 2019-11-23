@@ -1,7 +1,10 @@
+header{
+    background-color: #0e4905;
+}
 
 nav {
     margin: 0 auto;
-    background-color: #192a5f;
+    background-color: #0e4905;
     padding: 3px;
 }
 
@@ -43,13 +46,31 @@ nav {
     padding: 10px;
 }
 
+footer {
+    background-color: #0e4905;
+}
+
 /*home page*/
 #home{
     display: grid;
     grid-gap: 15px;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
+    background-color: #206814;
 }
 .homebox {
     min-height: 100px;
+}
+
+#about {
+    background-color: #4e7558;
+}
+#health {
+    background-color: #71a2b1;
+}
+#enviorment {
+    background-color: #98a718;
+}
+#contact {
+    background-color: #be5329;
 }
