@@ -15,9 +15,12 @@
 
     /*preston page*/ 
     #fivedayforcast{
-        display: inline;
+        display: block;
         padding-top: 5px;
         margin: 20px auto 15px;
+        box-shadow: 2px 2px 5px black;
+        max-width: 900px;;
+        background-color: rgba(175, 177, 185, 0.8);
     }
 
     .forecast span {
@@ -35,10 +38,10 @@
     #map-contact {
         display: flex;
         flex-direction: row;
-        width: 90%;
+		max-width: 900px;
         margin: 0 auto;
     }
     #mapph{
         display: block;
-        width: 50%;
+        max-width: 50%;
     }
