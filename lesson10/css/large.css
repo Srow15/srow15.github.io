@@ -18,6 +18,10 @@
 		padding: 5px;
 		max-width: 90%;
 	}
+	#summary {
+		position: absolute;
+		top: 30px;
+		left: 100px;
 
 	#articlediv {
         flex-direction: row;
@@ -29,6 +33,6 @@
 
 	footer {
 		margin: auto;
-		max-width: 90%;
+		max-width: 900px;
 	}
 }
