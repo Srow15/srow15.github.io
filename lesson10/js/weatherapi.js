@@ -63,8 +63,7 @@ switch (page) {
 
                 let day = new Date(jsObject.list[i].dt_txt.;
                 day = day.getDay();
-                forcastday[x].appendChild(day);
-        
+                forcastday[x].appendChild(day);        
 
      }
     }
