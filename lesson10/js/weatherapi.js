@@ -41,8 +41,8 @@ switch (page) {
         .then((jsObject) => {
     //console.log(jsObject);
 
-    let forcastinfo = document.getElementsByClassName('forcastinfo');
-    let forcastday = document.getElementsByClassName('forcastday');
+    let forcastinfo = document.getElementsById('day' + count);
+    let forcastday = document.getElementsById('day' + count);
     let x = 0
     for (let i = 0; i < jsObject.list.length; i++) {
       if (jsObject.list[i].dt_txt.includes('18:00:00')) {
