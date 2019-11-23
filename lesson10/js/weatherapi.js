@@ -61,9 +61,6 @@ switch (page) {
                 forcastinfo[x].appendChild(image);
                 forcastinfo[x].appendChild(text);
 
-                let day = new Date(jsObject.list[i].dt_txt.;
-                day = day.getDay();
-                forcastday[x].appendChild(day);
         
 
      }

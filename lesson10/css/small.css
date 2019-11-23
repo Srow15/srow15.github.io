@@ -141,10 +141,9 @@ footer {
 }
 
 #mapph {
-    width: 50%;
     display: none;
 }
 
 #contact {
-    width: 75%;
+    width: 100%;
     text-align: center;

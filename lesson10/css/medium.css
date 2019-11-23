@@ -13,6 +13,7 @@
         padding-left: 20px;
     }
 
+    /*preston page*/ 
     #fivedayforcast{
         display: inline;
         padding-top: 5px;
@@ -27,6 +28,9 @@
         width: 90%;
 
     }
+    #articlediv {
+        flex-direction: row;
+    }
 
     #map-contact {
         display: flex;
@@ -34,7 +38,7 @@
         width: 90%;
         margin: 0 auto;
     }
-    #map{
+    #mapph{
         display: block;
+        width: 50%;
     }
-}

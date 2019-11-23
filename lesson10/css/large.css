@@ -18,14 +18,16 @@
 		padding: 5px;
 		max-width: 90%;
 	}
+
+	/*preston page*/
+	#articlediv {
+		flex-direction: row;
+	}
 	#summary {
 		position: absolute;
 		top: 30px;
 		left: 100px;
 
-	#articlediv {
-        flex-direction: row;
-    }
 
 	main h3 {
 		margin-bottom: 0;

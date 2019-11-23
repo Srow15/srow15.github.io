@@ -1,0 +1,55 @@
+
+nav {
+    margin: 0 auto;
+    background-color: #192a5f;
+    padding: 3px;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+    padding: 10px;
+}
+
+.navigation a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navigation li:hover {
+    text-decoration: none;
+    background-color: #ffff05;
+    color: #192a5f;
+}
+
+.navigation li.active {
+    background-color: #555555;
+}
+
+.responsive li {
+    display: block;
+    padding: 10px;
+}
+
+/*home page*/
+#home{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.homebox {
+    min-height: 100px;
+}
