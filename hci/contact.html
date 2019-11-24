@@ -6,7 +6,7 @@
     <title>Melaleuca | Contact</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="This page allows users to contact the Melaleuca" content="Contact">
+    <meta name="Contact wth Melaleuca" content="Melaleuca Contact Page">
     <link rel="stylesheet" href="css/normalize.css">
     <link href="css/melaleucalarge.css" type="text/css" rel="stylesheet" />
     <link href="css/melaleucamedium.css" type="text/css" rel="stylesheet" />
@@ -15,19 +15,24 @@
 
 <body>
     <header>
-    <nav>
-        <ul class="navigation">
-            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Your Health</a></li>
-            <li><a href="">Your Enviorment</a></li>
-            <li><a href="">Become a Member</a></li>
-            <li class="active"><a href="">Contact</a></li>
-        </ul>
-    </nav>
-    <button type="button">Log in</button>
+        <img src="img/logo.png" alt="Melaleuca Logo">
     </header>
+    <nav>
+        <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="health.html">Your Health</a></li>
+                    <li><a href="enviorment.html">Your Enviorment</a></li>
+                    <li><a href="member.html">Become a Member</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <button id="loginbutton" type="button">Log in</button>
     <main>
         <section id="contact1">
             <label class="info">Full Name: <input type="text" name="flname" pattern="[A-Za-z].{5,}"></label>

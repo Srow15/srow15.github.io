@@ -6,8 +6,7 @@
     <title>Melaleuca | Become a Member</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="This page alows users to sign up to become perfered members of Melaleuca"
-        content="Melaleuca Member Sign Up">
+    <meta name="Sign up to become a Melaleuca Perferred Member" content="Melaleuca Member Sign up Page">
     <link rel="stylesheet" href="css/normalize.css">
     <link href="css/melaleucalarge.css" type="text/css" rel="stylesheet" />
     <link href="css/melaleucamedium.css" type="text/css" rel="stylesheet" />
@@ -16,19 +15,24 @@
 
 <body>
     <header>
-
+        <img src="img/logo.png" alt="Melaleuca Logo">
     </header>
     <nav>
-        <ul class="navigation">
-            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Your Health</a></li>
-            <li><a href="">Your Enviorment</a></li>
-            <li class="active"><a href="">Become a Member</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
+        <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="health.html">Your Health</a></li>
+                    <li><a href="enviorment.html">Your Enviorment</a></li>
+                    <li class="active"><a href="member.html">Become a Member</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
+    <button id="loginbutton" type="button">Log in</button>
     <main>
         <h1>Become a Member Today!</h1>
         <p>Thank you for your interest in Melaleuca. Every Melaleuca Member is referred by another member. To learn how

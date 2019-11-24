@@ -3,10 +3,10 @@
 <html lang="en-us">
 
 <head>
-    <title>Melaleuca | Your Enviorment</title>
+    <title>Melaleuca | Enviorment</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="This page teaches viewers about the products to improve their enviorment" content="Your Enviorment">
+    <meta name="Melaleuca teaches how their products help the enviorment" content="Melaleuca Your Enviorment Page">
     <link rel="stylesheet" href="css/normalize.css">
     <link href="css/melaleucalarge.css" type="text/css" rel="stylesheet" />
     <link href="css/melaleucamedium.css" type="text/css" rel="stylesheet" />
@@ -15,22 +15,28 @@
 
 <body>
     <header>
-
+        <img src="img/logo.png" alt="Melaleuca Logo">
     </header>
     <nav>
-        <ul class="navigation">
-            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Your Health</a></li>
-            <li class="active"><a href="">Your Enviorment</a></li>
-            <li><a href="">Become a Member</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
+        <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="health.html">Your Health</a></li>
+                    <li class="active"><a href="enviorment.html">Your Enviorment</a></li>
+                    <li><a href="member.html">Become a Member</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <main>
+    <button id="loginbutton" type="button">Log in</button>
+    <main class="contentpages" id="mainenviorment">
         <h1> Ecosense</h1>
         <h2>Safer, Effective, Concentrated, Affordable</h2>
+        <div class="contentcolumn">
         <section>
             <h3>Melaleuca's Commitment</h3>
             <p>From the beginning, Melaleuca has made environmental wellness an important part of its business culture.
@@ -54,8 +60,10 @@
         </section>
         <section>
             <h3>Little Steps to a Big Improvement</h3>
-            <p>Making a difference for a worldwide problem may seem impossible. But if you do your part, your effort does matter.</p>
+            <p>Making a difference for a worldwide problem may seem impossible. But if you do your part, your effort
+                does matter.</p>
         </section>
+        </div>
     </main>
 
     <footer>
