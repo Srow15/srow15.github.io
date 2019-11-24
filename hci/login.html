@@ -3,10 +3,10 @@
 <html lang="en-us">
 
 <head>
-    <title>Melaleuca | Contact</title>
+    <title>Melaleuca | Log In</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Contact wth Melaleuca" content="Melaleuca Contact Page">
+    <meta name="Melaleuca Log in Page" content="Melaleuca Log In Page">
     <link rel="stylesheet" href="css/normalize.css">
     <link href="css/melaleucalarge.css" type="text/css" rel="stylesheet" />
     <link href="css/melaleucamedium.css" type="text/css" rel="stylesheet" />
@@ -27,30 +27,31 @@
                     <li><a href="health.html">Your Health</a></li>
                     <li><a href="enviorment.html">Your Enviorment</a></li>
                     <li><a href="member.html">Become a Member</a></li>
-                    <li class="active"><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <a href="login.html"><button id="loginbutton" type="button">Log in</button></a>
-    <main id="contactpage">
-        <div>
-        <section id="contact1">
-            <label class="info">Full Name: <input type="text" name="flname" pattern="[A-Za-z].{5,}"></label>
-            <label class="info">Phone Number:<input type="tel" name="phone"></label>
+    <button id="loginbutton" type="button">Log in</button>
+    <main id="login">
+        <div id="logindiv">
+        <section id="loginsection1">
+            <h1>Welcome Back!</h1>
+            <p>Please sign in to begin shopping, access your business information, manage your account, enter the
+                Marketplace, and much more!</p>
             <label class="info">Email:<input type="email" name="email"
                     placeholder="http://www.myemaill@weatherplus.com"></label>
-            <label id="textarea" class="comment">Details:<input id="textarea" type="text" name="comments"
-                    placeholder="Please leave us a comment"></label>
-            <input id="submit" type="submit" value="Send Report">
+            <label class="info">Password:<input type="password" name="password" required></label>
+            <input id="submit" type="submit" value="Log In">
         </section>
-            <section id="contact2">
-                <h3>Call us at</h3>
-                <p>(208)522-0700</p>
-                <h3>Global Headquarters</h3>
-                <p>4609 West 65th South,<br> Idaho Falls, ID 83402 U.S.A</p>
-            </section>
-        </div>
+        <section id="loginsection2">
+            <h2>Not Yet a Member?</h2>
+            <p>Discover all the ways that Melaleuca enhances the lives of thousands of people just like you by helping
+                people reach their goals. Learn how members of Melaleuca are spending less money for safer, more
+                effective products, getting out of debt, and making a difference in the lives of those they touch.</p>
+                <a href="member.html"><button id="aboutlink" type="button">Become a Member Now</button></a>
+        </section>
+    </div>
     </main>
 
     <footer>

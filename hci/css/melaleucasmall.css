@@ -76,6 +76,11 @@ button:hover {
     background-color: #3e8e41;
 }
 
+main {
+    text-align: center;
+    background-color: #fffaaf;
+}
+
 footer {
     background-color: #0e4905;
     color: #ffffff;
@@ -165,7 +170,7 @@ footer {
 
 .contentcolumn {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 5px;
 }
 
@@ -173,12 +178,12 @@ footer {
     margin: 0;
 }
 
-.contentpages h2{
+.contentpages h2 {
     border-bottom: solid 2px #0e4905;
     padding-bottom: 10px;
 }
 
-.contentpages h3{
+.contentpages h3 {
     font-size: 1.5em;
     margin-bottom: 5px;
 }
@@ -190,14 +195,77 @@ footer {
 
 }
 
-/*#mainhealth section {
-    background-color: #71a2b1;
+/*Member Page*/
+#memberpage {
+    background-color: #fffaaf;
+    padding: 50px
 }
 
-#mainenviorment section {
-    background-color: #98a718;
+#memberpage h1 {
+    margin: 0;
 }
 
-#mainabout section {
-    background-color: #4e7558;
-}*/
+#memberpage div {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+input {
+    margin: 10px;
+    background: #0e4905;
+    color: white;
+}
+
+/*Contact Page*/
+#contactpage {
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contactpage p {
+    margin: 0 auto;
+}
+
+#contact1 {
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contactpage input {
+    margin: 10px 0;
+}
+
+#contactpage div {
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    margin: auto;
+}
+
+#contactpage h3 {
+    margin-bottom: 5px;
+}
+
+/*Log in */
+#login {
+    padding: 50px;
+}
+
+#logindiv {
+        max-width: 700px;
+        margin: 0 auto;
+}
+
+#login h1 {
+    margin-top: 0;
+}
+#login input{
+    margin-bottom: 20px;
+}
+
+#loginsection1 {
+    border-bottom: 2px solid #0e4905;
+}
