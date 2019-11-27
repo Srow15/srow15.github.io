@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <title>Gallery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="This webpage contains a weather gallery, with differetn landscape pictures" content="Gallery project">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href="css/small.css" type="text/css" rel="stylesheet" />
+    <link href="css/medium.css" type="text/css" rel="stylesheet" />
+    <link href="css/large.css" type="text/css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <header>
+        <img src="img/weatherplus-logo-300.png" alt="Idaho Weather Plus Logo" id="headerimg">
+        <div id="headingdiv">
+            <h1>Idaho Weather Plus</h1>
+            <p id="slogan">When you need the weather, plus.</p>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="../lesson9/index.html">Home</a></li>
+            <li><a href="../lesson6/preston-6.html">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+            <li class="active"><a href="../lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Gallery</h1>
+        <div class="griddiv">
+            <figure class="galleryfigure">
+                <img src="img/placeholder.png" data-src="img/rain.jpg" alt="Rain drops on water">
+                <figcaption>
+                    Rain Drops on Water
+                </figcaption>
+            </figure>
+            <figure class="galleryfigure">
+                <img src="img/placeholder.png" data-src="img/lightning.jpg" alt="Lightning bolt">
+                <figcaption>
+                    Lightning Bolt
+                </figcaption>
+            </figure>
+            <figure class="galleryfigure">
+                <img src="img/placeholder.png" data-src="img/light-snow.jpg" alt="light dusting of sonw on a yard">
+                <figcaption>
+                    Light Dusting of Snow on a Yard
+                </figcaption>
+            </figure>
+            <figure class="galleryfigure">
+                <img src="img/placeholder.png" data-src="img/icestorm.jpg" alt="ice strom affects on yard">
+                <figcaption>
+                    Ice Covered Yeard after an Ice Strom
+                </figcaption>
+            </figure>
+            <figure class="galleryfigure">
+                <img src="img/placeholder.png" data-src="img/bayou.jpg" alt="a bayou on a sunny day">
+                <figcaption>
+                    Bayou on a Sunny Day
+                </figcaption>
+            </figure>
+            <figure class="galleryfigure">
+                <img src="img/placeholder.png" data-src="img/sunset-on-mountain.jpg" alt="sunset on mountains">
+                <figcaption>
+                    Sunset on Mountains
+                </figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>
+            <script src="js/lazyload.js"></script>
+            <p>&copy; <span id="copyrightdate"></span> Sarah E. Rowley</p>
+            <p>Date: <span id="currentdate"> </span></p>
+            <script src="js/mainjs.js"></script>
+            <script src="../js/copyrightyear.js"></script>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+                google: {
+                    families: ["Varela Round", "Rokkitt"]
+                }
+            });
+        </script>
+</body>
+
+</html>

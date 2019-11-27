@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <title>Storm Center</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="This webpage allows for the user to enter stroms in their area" content="Storm Center">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href="css/small.css" type="text/css" rel="stylesheet" />
+    <link href="css/medium.css" type="text/css" rel="stylesheet" />
+    <link href="css/large.css" type="text/css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <header>
+        <img src="img/weatherplus-logo-300.png" alt="Idaho Weather Plus Logo" id="headerimg">
+        <div id="headingdiv">
+            <h1>Idaho Weather Plus</h1>
+            <p id="slogan">When you need the weather, plus.</p>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="../lesson9/index.html">Home</a></li>
+            <li><a href="../lesson6/preston-6.html">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li class="active"><a href="../lesson8/stormcenter.html">Storom Center</a></li>
+            <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main id="stormcenterpg">
+        <h1 id="stormheder">Storm Center</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>
+                    Who's Reporting?
+                </legend>
+                <label class="info">*Full Name: <input type="text" name="flname" required
+                        pattern="[A-Za-z].{5,}"></label>
+                <label class="info">*Phone Number:<input type="tel" name="phone" required></label>
+                <label class="info">Email:<input type="email" name="email"
+                        placeholder="http://www.myemaill@weatherplus.com" required></label>
+                <label class="info">*Zip Code:<input type="number" name="zip" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Report Storm Information
+                </legend>
+                <label class="data">Date:<input type="date" name="date"></label>
+                <label class="storm">Storm Type:<input list="storms" id="stormtype" name="stormtype">
+                    <datalist id="storms">
+                        <option value="Flash Flood">Flash Flood</option>
+                        <option value="Hail">Hail</option>
+                        <option value="Hurricaine">Hurricaine</option>
+                        <option value="Thunderstorm">Thunderstorm</option>
+                        <option value="Tornado">Tornado</option>
+                    </datalist>
+                </label>
+                <label class="detail">Storm Severity:<input type="range" id="rating" value="10" min="1" max="10"
+                        step="1" list="marks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">10</span>
+                </label>
+                <label>
+                    <datalist id="marks">
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                        <option value="4"></option>
+                        <option value="5"></option>
+                        <option value="6"></option>
+                        <option value="7"></option>
+                        <option value="8"></option>
+                        <option value="9"></option>
+                        <option value="10"></option>
+                    </datalist>
+                </label> <br>
+                <label class="detail">Storm Region:<select name="region">
+                        <option disabled>Select Region</option>
+                        <option value="Fish Haven">Fish Haven</option>
+                        <option value="Preston">Preston</option>
+                        <option value="Soda Springs">Soda Springs</option>
+                    </select>
+                </label>
+                <label class="detail">Are You in Danger?</label><br>
+                <label>Yes<input type="radio" name="danger" value="Yes"> </label>
+                <label>No<input type="radio" name="danger" value="No"> </label>
+                <label> Maybe<input type="radio" name="danger" value="Maybe"> </label>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Additional Information or Comments
+                </legend>
+                <label id="textarea" class="comment">Details:<input id="textarea" type="text" name="comments"
+                        placeholder="It's raining cats and dogs">
+                </label>
+                <label class="comment">
+                    <input id="submit" type="submit" value="Send Report">
+                </label>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; <span id="copyrightdate"></span> Sarah E. Rowley</p>
+        <p>Date: <span id="currentdate"> </span></p>
+        <script src="js/mainjs.js"></script>
+        <script src="../js/copyrightyear.js"></script>
+        <script src="js/rating.js"></script>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+        WebFont.load({
+            google: {
+                families: ["Varela Round", "Rokkitt"]
+            }
+        });
+    </script>
+</body>
+
+</html>

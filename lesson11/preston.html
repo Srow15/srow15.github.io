@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <title>Preston Idaho Weather</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="This page gives the weather, a five day forcast, and artcle about the city of Preston Idaho"
+        content="Preston Idaho">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/small.css" type="text/css" rel="stylesheet" />
+    <link href="css/medium.css" type="text/css" rel="stylesheet" />
+    <link href="css/large.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body onload="windChill()">
+    <div>
+        <span id="banner"></span>
+    </div>
+    <header>
+        <img src="img/weatherplus-logo-300.png" alt="Idaho Weather Plus Logo" id="headerimg">
+        <div id="headingdiv">
+            <h1>Idaho Weather Plus</h1>
+            <p id="slogan">When you need the weather, plus.</p>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="">Home</a></li>
+            <li class="active"><a href="../lesson6/preston-6.html">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2><span id="page">Preston</span> Idaho</h2>
+        <div id="herodiv">
+            <picture>
+                <img id="hero-img" src="img/herodefult.jpg" alt="landscape of grassie field and sun"
+                    srcset="img/herolarge.jpg 1000w, img/heromedium.jpg 800w, img/herosmall.jpg 400w"
+                    sizes="(min-width:1060px) 1060px, 100vw">
+            </picture>
+            <div id="summary">
+                <p>Weather Now: <span id="weather"></span></p>
+                <p>High: <span id="high"></span>&#176;F</p>
+                <p> Humidity: <span id="humidity"></span>&#37;</p>
+                <p> Wind Speed: <span id="speed"></span>mph</p>
+                <p>Wind-Chill: <span id="windchill"></span>&#176;F</p>
+            </div>
+        </div>
+        <div id="fivedayforcast">
+            <h3>5 Day Forcast</h3>
+            <section id="forecastsection">
+                <div class="forecast">
+                    <span id="day1"></span>
+                    <span id="info1"></span>
+                </div>
+            </section>
+            <section id="forecastsection">
+                <divclass="forecast">
+                    <span id="day2"></span>
+                    <span id="info2"></span>
+        </div>
+        </section>
+        <section id="forecastsection">
+            <div class="forecast">
+                <span id="day3"></span>
+                <span id="info3"></span>
+            </div>
+        </section>
+        <section id="forecastsection">
+            <div class="forecast">
+                <span id="day4"></span>
+                <span id="info4"></span>
+            </div>
+        </section>
+        <section id="forecastsection">
+            <div" class="forecast">
+                <span id="day5"></span>
+                <span id="info5"></span>
+                </div>
+        </section>
+        </div>
+        <section id="articlesection">
+            <h3>Article</h3>
+            <div id="articlediv">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quae laboriosam fugiat officia quam
+                    magnam
+                    id illo asperiores! Sint, labore saepe dignissimos praesentium recusandae molestias quo ducimus
+                    quidem
+                    ullam fuga? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur repellendus magnam
+                    veritatis placeat dicta excepturi molestiae quibusdam aut voluptas, laudantium deserunt eveniet
+                    dolor
+                    laborum modi quam alias voluptatibus, a doloribus!</p>
+                <img id="rainimg" src="img/rain300.jpg" alt="rain">
+            </div>
+        </section>
+        <section id="map-contact">
+            <div id="map">
+                <img id="mapph" src="img/mapph.jpg" alt="picture of a map">
+            </div>
+            <div id="contactdiv">
+                <h3>Contact</h3>
+                <p>Contact Info will go here</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="copyrightdate"></span> Sarah E. Rowley</p>
+        <p>Date: <span id="currentdate"> </span></p>
+        <script src="js/showBanner.js"></script>
+        <script src="js/mainjs.js"></script>
+        <script src="../js/copyrightyear.js"></script>
+        <script src="js/windchill.js"></script>
+        <script src="js/weatherapi.js"></script>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ["Varela Round", "Rokkitt"]
+            }
+        });
+    </script>
+</body>
+
+</html>

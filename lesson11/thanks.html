@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <title>Storm Center</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="This webpage allows for the user to enter stroms in their area" content="Storm Center">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href="css/small.css" type="text/css" rel="stylesheet" />
+    <link href="css/medium.css" type="text/css" rel="stylesheet" />
+    <link href="css/large.css" type="text/css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <header>
+        <img src="img/weatherplus-logo-300.png" alt="Idaho Weather Plus Logo" id="headerimg">
+        <div id="headingdiv">
+            <h1>Idaho Weather Plus</h1>
+            <p id="slogan">When you need the weather, plus.</p>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="../lesson6/preston-6.html">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li class="active"><a href="../lesson8/stormcenter.html">Strom Center</a></li>
+            <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main id="thanks">
+        <p>
+            <strong>Your storm has been submitted, thank you!</strong>
+        </p>
+    </main>
+    <footer>
+        <p>&copy; <span id="copyrightdate"></span> Sarah E. Rowley</p>
+        <p>Date: <span id="currentdate"> </span></p>
+        <script src="js/mainjs.js"></script>
+        <script src="../js/copyrightyear.js"></script>
+        <script src="js/rating.js"></script>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ["Varela Round", "Rokkitt"]
+            }
+        });
+    </script>
+</body>
+
+</html>

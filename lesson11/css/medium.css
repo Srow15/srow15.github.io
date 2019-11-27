@@ -1,0 +1,79 @@
+@media only screen and (min-width: 32.5em) {
+
+
+    header {
+        justify-content: center;
+    }
+
+    header h1 {
+        padding: 0px 20px;
+    }
+
+    header p {
+        padding-left: 20px;
+    }
+
+    /*home page*/
+    article {
+        width: 100%;
+    }
+
+    main section {
+        display: flex;
+        padding: 15px 50px;
+    }
+
+    main section:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+    #storytext {
+        position: absolute;
+        top: 175px;
+        left: 125px;
+        box-shadow: 7px 7px 10px black;
+    }
+/*gallery page*/
+
+.griddiv{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+ 
+    /*preston page*/
+    #fivedayforcast {
+        display: block;
+        padding-top: 5px;
+        margin: 20px auto 15px;
+        box-shadow: 2px 2px 5px black;
+        max-width: 900px;
+        ;
+        background-color: rgba(175, 177, 185, 0.8);
+    }
+
+    .forecast span {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0 auto;
+        width: 90%;
+
+    }
+
+    #articlediv {
+        flex-direction: row;
+    }
+
+    #map-contact {
+        display: flex;
+        flex-direction: row;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    #mapph {
+        display: block;
+        max-width: 50%;
+    }
