@@ -14,16 +14,16 @@
     }
 
     /*home page*/
-    article {
+    #homemain article {
         width: 100%;
     }
 
-    main section {
+    #homemain section {
         display: flex;
         padding: 15px 50px;
     }
 
-    main section:nth-child(even) {
+    #homemain section:nth-child(even) {
         flex-direction: row-reverse;
     }
 
@@ -44,6 +44,10 @@
     }
 
     /*preston page*/
+#prestonmain {
+    max-width: 900px;
+}
+
     #forcastdiv {
         display: block;
         padding-top: 5px;
@@ -53,18 +57,19 @@
         background-color: rgba(175, 177, 185, 0.8);
     }
 
-
     #forecast {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         margin: 0 auto;
-        width: 90%;
-
     }
 
     #articlediv {
         flex-direction: row;
+    }
+
+    #articlesection h3{
+        text-align: center;
     }
 
     #map-contact {

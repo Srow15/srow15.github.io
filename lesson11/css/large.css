@@ -51,13 +51,6 @@
 }
 
 /*preston page*/
-#articlediv {
-	flex-direction: row;
-}
-
-main h3 {
-	margin-bottom: 0;
-}
 
 footer {
 	margin: auto;
