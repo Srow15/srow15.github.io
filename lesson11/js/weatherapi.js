@@ -51,7 +51,14 @@ fetch(forecastAPI)
                 let text = document.createElement('p')
                 text.innerHTML = jsObject.list[i].main.temp + " &#176;F";
 
+                let icon = jsObject.list[i].weather[0].icon;
+                let image = document.createElement('img');
+                let desc = jsObject.list[i].weather[0].description
+                image.setAttribute('src', "https://openweathermap.org/img/wn/" + icon + ".png");
+                image.setAttribute('alt', desc);
 
+                info[i].appendChild(image);
+                info[i].appendChild(text);
 
                 let myday = 'day' + count;
                 var d = new Date();
