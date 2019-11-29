@@ -186,9 +186,13 @@ input #danger {
     flex-direction: row;
 }
 
-/* preston page*/
+/* contect page*/
 #herodiv {
     position: relative;
+}
+
+#herodiv img{
+    margin: 0 auto;
 }
 
 #summary {

@@ -2,11 +2,11 @@
 <html lang="en-us">
 
 <head>
-    <title>Preston Idaho Weather</title>
+    <title>Fish Haven Idaho Weather</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="This page gives the weather, a five day forcast, and artcle about the city of Preston Idaho"
-        content="Preston Idaho">
+    <meta name="This page gives the weather, a five day forcast, and artcle about the city of Fish Haven Idaho"
+        content="Fish Haven Idaho">
     <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css/normalize.css">
     <link href="css/small.css" type="text/css" rel="stylesheet" />
@@ -15,9 +15,6 @@
 </head>
 
 <body onload="windChill()">
-    <div>
-        <span id="banner"></span>
-    </div>
     <header>
         <a href="../lesson11/index.html"><img src="img/weatherplus-logo-300.png" alt="Idaho Weather Plus Logo" id="headerimg"></a>
         <div id="headingdiv">
@@ -29,20 +26,20 @@
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="../lesson11/index.html">Home</a></li>
-            <li class="active"><a href="../lesson11/preston.html">Preston</a></li>
+            <li><a href="../lesson11/preston.html">Preston</a></li>
             <li><a href="../lesson11/sodasprings.html">Soda Springs</a></li>
-            <li><a href="../lesson11/fishhaven.html">Fish Haven</a></li>
+            <li class="active"><a href="../lesson11/fishhaven.html">Fish Haven</a></li>
             <li><a href="../lesson11/stormcenter.html">Storm Center</a></li>
             <li><a href="../lesson11/gallery.html">Gallery</a></li>
         </ul>
     </nav>
-    <main id="prestonmain">
-        <h2><span id="page">Preston</span> Idaho</h2>
+    <main id="fishhavennmain" class="contentmain">
+        <h2><span id="page">Fish Haven</span> Idaho</h2>
         <div id="herodiv">
             <picture>
                 <img id="hero-img" src="img/herodefult.jpg" alt="landscape of grassie field and sun"
                     srcset="img/herolarge.jpg 1000w, img/heromedium.jpg 800w, img/herosmall.jpg 400w"
-                    sizes="(min-width:1060px) 1060px, 100vw">
+                    sizes="(min-width:900px) 875px, 100vw">
             </picture>
             <div id="summary">
                 <p>Weather Now: <span id="weather"></span></p>

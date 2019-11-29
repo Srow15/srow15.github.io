@@ -43,8 +43,8 @@
         grid-template-rows: 1fr 1fr 1fr;
     }
 
-    /*preston page*/
-#prestonmain {
+    /*content page*/
+.contentmain {
     max-width: 900px;
 }
 
