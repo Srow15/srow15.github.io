@@ -51,19 +51,33 @@ fetch(forecastAPI)
                 let text = document.createElement('p')
                 text.innerHTML = jsObject.list[i].main.temp + " &#176;F";
 
-                let icon = jsObject.list[i].weather[0].icon;
-                let image = document.createElement('img');
-                let desc = jsObject.list[i].weather[0].description
-                image.setAttribute('src', "https://openweathermap.org/img/wn/" + icon + ".png");
-                image.setAttribute('alt', desc);
 
-                info[i].appendChild(image);
-                info[i].appendChild(text);
 
-                let day = new Date(jsObject.list[i].dt_txt.substring(0, 11));
-                day = day.getDay();
-                name[i].innerHTML = daynames[day];
-                count++
+                let myday = 'day' + count;
+                var d = new Date();
+                var n = d.getDay();
+                n = n + count - 1;
+                if (n > 6){
+                  (n = n-7);
+                }     
+                
+                if (n == 0) {
+                  day = "Sun";
+                } else if (n == 1) {
+                  day = "Mon";
+                } else if (n == 2) {
+                  day = "Tues";
+                } else if (n == 3) {
+                  day = "Wed";
+                } else if (n == 4) {
+                  day = "Thurs";
+                } else if (n == 5) {
+                  day = "Fri";
+                } else if (n == 6) {
+                  day = "Sat";
+                }
+        
+                document.getElementById(myday).textContent = day;
             }
         }
     });;

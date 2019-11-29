@@ -33,27 +33,28 @@
         left: 125px;
         box-shadow: 7px 7px 10px black;
     }
-/*gallery page*/
 
-.griddiv{
-    display: grid;
-    grid-gap: 15px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-}
- 
+    /*gallery page*/
+
+    .griddiv {
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
     /*preston page*/
-    #fivedayforcast {
+    #forcastdiv {
         display: block;
         padding-top: 5px;
         margin: 20px auto 15px;
         box-shadow: 2px 2px 5px black;
         max-width: 900px;
-        ;
         background-color: rgba(175, 177, 185, 0.8);
     }
 
-    .forecast span {
+
+    #forecast {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
