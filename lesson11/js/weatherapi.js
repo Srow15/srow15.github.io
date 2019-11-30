@@ -43,10 +43,12 @@ fetch(forecastAPI)
 
 
         let count = 0
-        let info = document.getElementById('info' + count);
-        let name = document.getElementById('day' + count);
         for (i = 0; i < jsObject.list.length; i++) {
             if (jsObject.list[i].dt_txt.includes('18:00:00')) {
+
+                count++;
+                let info = document.getElementById('info' + count);
+                let name = document.getElementById('day' + count);
 
                 let text = document.createElement('p')
                 text.innerHTML = jsObject.list[i].main.temp + " &#176;F";
@@ -57,8 +59,8 @@ fetch(forecastAPI)
                 image.setAttribute('src', "https://openweathermap.org/img/wn/" + icon + ".png");
                 image.setAttribute('alt', desc);
 
-                info[i].appendChild(image);
-                info[i].appendChild(text);
+                info.appendChild(image);
+                info.appendChild(text);
 
                 let myday = 'day' + count;
                 var d = new Date();
