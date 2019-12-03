@@ -31,7 +31,7 @@
 		display: initial;
 	}
 
-	main section:nth-child(even) {
+	#homemain section:nth-child(even) {
 		flex-direction: row-reverse;
 	}
 
@@ -39,27 +39,38 @@
 		top: 250px;
 		left: 150px;
 	}
-}
 
-/*galerry page*/
+	/*galerry page*/
 
-.griddiv {
-	display: grid;
-	grid-gap: 15px;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
-}
+	.galleryfigure:hover {
+		width: 300px;
+		box-shadow: 10px 15px 10px #a9a9a9;
+		text-shadow: 2px 2px 2px #a9a9a9;
+	}
 
-/*content page*/
+	#gallerymain figure {
+		margin-bottom: 10px;
+	}
 
-footer {
-	margin: auto;
-	max-width: 900px;
-}
+	#gallerymain {
+		width: 100%;
+		max-width: 900px;
+	}
 
-#summary {
-	position: absolute;
-	top: 30px;
-	left: 100px;
+	.griddiv {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
 
-}
+	/*content page*/
+
+	footer {
+		margin: auto;
+		max-width: 900px;
+	}
+
+	#summary {
+		position: absolute;
+		top: 30px;
+		left: 100px;
+
+	}

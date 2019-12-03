@@ -28,7 +28,7 @@
             <li><a href="../lesson11/preston.html">Preston</a></li>
             <li><a href="../lesson11/sodasprings.html">Soda Springs</a></li>
             <li><a href="../lesson11/fishhaven.html">Fish Haven</a></li>
-            <li class="active"><a href="../lesson11/stormcenter.html">Storom Center</a></li>
+            <li class="active"><a href="../lesson11/stormcenter.html">Storm Center</a></li>
             <li><a href="../lesson11/gallery.html">Gallery</a></li>
         </ul>
     </nav>
@@ -40,10 +40,10 @@
                     Who's Reporting?
                 </legend>
                 <label class="info">*Full Name: <input type="text" name="flname" required
-                        pattern="[A-Za-z].{5,}"></label>
+                        pattern="[A-Za-z ]{5,}"></label>
                 <label class="info">*Phone Number:<input type="tel" name="phone" required></label>
                 <label class="info">Email:<input type="email" name="email"
-                        placeholder="http://www.myemaill@weatherplus.com" required></label>
+                        placeholder="www.myemaill@weatherplus.com"></label>
                 <label class="info">*Zip Code:<input type="number" name="zip" required></label>
             </fieldset>
             <fieldset>
@@ -60,9 +60,8 @@
                         <option value="Tornado">Tornado</option>
                     </datalist>
                 </label>
-                <label class="detail">Storm Severity:<input type="range" id="rating" value="10" min="1" max="10"
+                <label class="detail">Storm Severity: <span id="ratingvalue">10</span> <input type="range" id="rating" value="10" min="1" max="10"
                         step="1" list="marks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                    <span id="ratingvalue">10</span>
                 </label>
                 <label>
                     <datalist id="marks">
@@ -79,7 +78,7 @@
                     </datalist>
                 </label> <br>
                 <label class="detail">Storm Region:<select name="region">
-                        <option disabled>Select Region</option>
+                        <option selected disabled>Select Region</option>
                         <option value="Fish Haven">Fish Haven</option>
                         <option value="Preston">Preston</option>
                         <option value="Soda Springs">Soda Springs</option>
@@ -94,13 +93,13 @@
                 <legend>
                     Additional Information or Comments
                 </legend>
-                <label id="textarea" class="comment">Details:<input id="textarea" type="text" name="comments"
-                        placeholder="It's raining cats and dogs">
-                </label>
-                <label class="comment">
-                    <input id="submit" type="submit" value="Send Report">
+                <label id="textarea" class="comment">Details:
+                    <textarea name='comment' cols='50' rows='4'></textarea>
                 </label>
             </fieldset>
+            <label class="comment">
+                    <input id="submit" type="submit" value="Send Report">
+                </label>
         </form>
     </main>
     <footer>
@@ -110,7 +109,8 @@
         <script src="../js/copyrightyear.js"></script>
         <script src="js/rating.js"></script>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
         WebFont.load({
             google: {
                 families: ["Varela Round", "Rokkitt"]

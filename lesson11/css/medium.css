@@ -29,7 +29,7 @@
 
     #storytext {
         position: absolute;
-        top: 175px;
+        bottom: 20px;
         left: 125px;
         box-shadow: 7px 7px 10px black;
     }
@@ -37,16 +37,13 @@
     /*gallery page*/
 
     .griddiv {
-        display: grid;
-        grid-gap: 15px;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
     }
 
     /*content page*/
-.contentmain {
-    max-width: 900px;
-}
+    .contentmain {
+        max-width: 900px;
+    }
 
     #forcastdiv {
         display: block;
@@ -62,24 +59,26 @@
         flex-direction: row;
         justify-content: space-around;
         margin: 0 auto;
+        text-align: center;
     }
 
     #articlediv {
         flex-direction: row;
     }
 
-    #articlesection h3{
+    #articlesection h3 {
         text-align: center;
     }
 
     #map-contact {
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         max-width: 900px;
         margin: 0 auto;
     }
 
     #mapph {
         display: block;
-        max-width: 50%;
+        max-width: 100%;
     }
+}

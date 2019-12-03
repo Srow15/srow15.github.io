@@ -5,7 +5,7 @@ function windChill() {
     var temp = document.getElementById("high").innerHTML;
     var windSpeed = document.getElementById("speed").innerHTML;
 
-    if (temp <= 50 && windSpeed >= 3) {
+    if (temp <= 50 && windSpeed >= 0) {
         
         var a = 35.75 + (0.6215 * temp);
         var b = 35.75 * Math.pow(windSpeed, 0.16);
