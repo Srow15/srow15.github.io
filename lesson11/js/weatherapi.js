@@ -109,7 +109,7 @@ fetch(requestURL)
                 let text = document.createElement('section');
                 let h3 = document.createElement('h3');
                 h3.textContent = "Local events in " + towns[i].name;
-                document.querySelector('#eventsh3').appendChild(h3);
+                text.appendChild(h3);
 
                 for (x = 0; x < towns[i].events.length; x++) {
                     let p = document.createElement('p');
