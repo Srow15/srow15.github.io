@@ -1,0 +1,122 @@
+/* Every Page*/
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Courgette', cursive;
+    color: #1c2d44;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    color: #1c2d44;
+}
+
+header{
+    text-align: center;
+}
+main {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+footer{
+    text-align: center;
+    background-color: #fdb913;
+    padding: 5px;
+}
+
+main img {
+    border: 1px solid #25bbf3;
+    margin: 15px;
+    box-shadow: 5px 5px 5px #a9a9a9;
+}
+
+/* Navigation */
+nav {
+    margin: 0 auto;
+    padding: 3px;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+    padding: 10px;
+}
+
+.navigation a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #1c2d44;
+}
+
+.navigation li:hover {
+    text-decoration: none;
+    background-color: #fdb913;
+    color: #1c2d44;
+}
+
+.navigation li.active {
+    background-color: lightgray;
+}
+
+.responsive li {
+    display: block;
+    padding: 10px;
+}
+
+/*home page*/
+#homebutton button{
+    padding: 5px 15px;
+    border-color: #1c2d44;
+    background-color: #fdb913;
+    box-shadow: 2px 2px 5px black;
+}
+
+#hometemple {
+    margin: auto;
+    position: relative;
+}
+
+#homebutton {
+    position: absolute;
+    bottom: 80px;
+    left: 170px;
+}
+#homemain {
+    display: grid;
+}
+
+.homectwo{
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+ 
+#bap{
+    flex-direction: column-reverse;
+}
+
+#homemain article{
+    margin: auto;
+}
+
+#sealings, #baptism{
+    border-bottom: 2px solid #fdb913;
+}
+
+
+
+

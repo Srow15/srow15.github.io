@@ -1,0 +1,30 @@
+@media only screen and (min-width: 32.5em) {
+/*every page*/
+
+/*Navigation*/
+.navigation {
+    display: flex;
+}
+
+.navigation li:first-child {
+    display: none;
+}
+
+.navigation li {
+    display: block;
+    flex: 1 1 100%;
+}
+.navigation li {
+    border-bottom: 1px solid #fdb913;
+}
+
+/*Home Page*/
+#reserve {
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+.homectwo{
+    display: flex;
+
+}
+
+}
