@@ -1,0 +1,219 @@
+{
+    "temples": [{
+        "name": "Newport Beach California Temple",
+        "address": "2300 Bonita Canyon Dr Newport Beach CA 92660-9118 United States",
+        "telephone": "(949)644-1820",
+        "email": "n/a",
+        "services": [
+            "No clothing rental available",
+            "No cafeteria available",
+            "No patron housing available",
+            "No distribution center nearby"
+        ],
+        "history": [
+
+        ],
+        "sessions": [
+            "Tuesday thru Saturday",
+            "7:00 AM",
+            "8:30 AM",
+            "10:00 AM",
+            "12:00 PM",
+            "1:30 PM",
+            "3:00 PM",
+            "5:00 PM",
+            "6:30 PM",
+            "8:00 PM"
+        ],
+        "initiatory": [
+            "Tuesday thru Saturday",
+            "7:00 AM - 8:30PM"
+        ],
+        "sealings": [
+            "Tuesday thru Saturday",
+            "7:00 AM - 8:00 AM Walks-ins Only,",
+            "8:00 AM - 11:00 AM Appointments Only",
+            "1:00 PM - 2:00 PM Appointments Only",
+            "3:00 PM - 4:00 PM Appontments Only",
+            "5:00 PM - 6:00 PM Walk-ins Only",
+            "6:00 PM - 7:00PM Appointments Only"
+        ],
+
+        "baptisims": [
+            "Tuesday thru Saurtday",
+            "8:00 AM - 4:00 PM Walk-ins Only",
+            "5:00 PM - 8:30 PM Church Groups - Appointments Only"
+
+        ],
+        "closures": [
+            "Tuesday, 24 December 2019",
+            "Wednesday, 25 December 2019",
+            "Tuesday, 31 December 2019"
+        ]
+    },
+{
+        "name": "Idaho Falls Idaho Temple",
+        "address": "1000 Memorial Dr Idaho Falls ID 83402-3410 United States",
+        "telephone": "(208)522-7669",
+        "email": "n/a",
+        "services": [
+            "Clothing rental available",
+            "Cafeteria available",
+            "No patron housing available",
+            "Distribution center nearby"
+        ],
+        "history": [
+
+        ],
+        "sessions": [
+            "Tuesday thru Saturday",
+            "6:00 AM - 8:00 PM Walk-ins",
+            "12:00 PM - 2:00 PM Appointsments and Walk-ins"
+        ],
+        "initiatory": [
+            "Tuesday thru Saturday",
+            "6:00 AM - 8:00PM Walk-ins Only"
+        ],
+        "sealings": [
+            "Tuesday thru Saturday",
+            "6:00 AM - 6:00 AM Walks-ins and Appointments"
+        ],
+
+        "baptisims": [
+            "Tuesday thru Saturday",
+            "6:00 AM - 8:30 PM Walk-ins and Appointments"
+
+        ],
+        "closures": [
+            "Tuesday, 24 December 2019",
+            "Wednesday, 25 December 2019",
+            "Tuesday, 31 December 2019"
+        ]
+    }
+{
+        "name": "Rexburg Idaho Temple",
+        "address": "750 S 2nd E Rexburg ID 83440-5404 United States",
+        "telephone": "(208)656-0880",
+        "email": "n/a",
+        "services": [
+            "Clothing rental available",
+            "No Cafeteria available",
+            "No patron housing available",
+            "Distribution center nearby"
+        ],
+        "history": [
+
+        ],
+        "sessions": [
+            "Tuesday thru Saturday",
+            "6:00 AM - 7:30 PM Walk-ins",
+            "8:15 AM - 9:00 AM, 3:00 PM, 5:00 PM, & 7:30 PM Appointsments and Walk-ins"
+
+        ],
+        "initiatory": [
+            "Tuesday thru Saturday",
+            "6:00 AM - 8:00PM Walk-ins Only"
+        ],
+        "sealings": [
+            "Tuesday thru Saturday",
+            "7:00 AM - 8:00 PM Walks-ins and Appointments"
+        ],
+
+        "baptisims": [
+            "Tuesday thru Saturday",
+            "6:00 AM - 9:00 AM Church Groups Appointments Only",
+            "9:00 AM - 4:00 PM Walk-ins Only",
+            "4:00 PM - 8:00 PM Church Groups Appointments Only"
+
+        ],
+        "closures": [
+            "Tuesday, 24 December 2019",
+            "Wednesday, 25 December 2019",
+            "Tuesday, 31 December 2019",
+            "Wednesday, 1 January 2020"
+        ],
+                "name": "Rexburg Idaho Temple",
+        "address": "750 S 2nd E Rexburg ID 83440-5404 United States",
+        "telephone": "(208)656-0880",
+        "email": "n/a",
+        "services": [
+            "Clothing rental available",
+            "No Cafeteria available",
+            "No patron housing available",
+            "Distribution center nearby"
+        ],
+        "history": [
+
+        ],
+        "sessions": [
+            "Tuesday thru Saturday",
+            "6:00 AM - 7:30 PM Walk-ins",
+            "8:15 AM - 9:00 AM, 3:00 PM, 5:00 PM, & 7:30 PM Appointsments and Walk-ins"
+
+        ],
+        "initiatory": [
+            "Tuesday thru Saturday",
+            "6:00 AM - 8:00PM Walk-ins Only"
+        ],
+        "sealings": [
+            "Tuesday thru Saturday",
+            "7:00 AM - 8:00 PM Walks-ins and Appointments"
+        ],
+
+        "baptisims": [
+            "Tuesday thru Saturday",
+            "6:00 AM - 9:00 AM Church Groups Appointments Only",
+            "9:00 AM - 4:00 PM Walk-ins Only",
+            "4:00 PM - 8:00 PM Church Groups Appointments Only"
+
+        ],
+        "closures": [
+            "Tuesday, 24 December 2019",
+            "Wednesday, 25 December 2019",
+            "Tuesday, 31 December 2019",
+            "Wednesday, 1 January 2020"
+        ]
+    },
+    {
+        "name": "Meridian Idaho Temple",
+        "address": "7355 N Linder Rd Meridian ID 83646 United States",
+        "telephone": "(208)957-7300",
+        "email": "n/a",
+        "services": [
+            "No Clothing rental available",
+            "No Cafeteria available",
+            "No patron housing available",
+            "No Distribution center nearby"
+        ],
+        "history": [
+
+        ],
+        "sessions": [
+            "Tuesday thru Saturday",
+            "5:15 AM - 7:30 PM Walk-ins and Appointments"        
+        ],
+
+        "initiatory": [
+            "Tuesday thru Saturday",
+            "5:30 AM - 9:00PM Walk-ins Only"
+        ],
+        "sealings": [
+            "Tuesday thru Saturday",
+            "6:00 AM - 9:00 PM Walks-ins and Appointments"
+        ],
+
+        "baptisims": [
+            "Tuesday thru Saturday",
+            "5:00 AM - 9:00 PM Walk-ins and Appointments"
+        ],
+        "closures": [
+            "Saturday, 21 December 2019 (Limited Hours)",
+            "Tuesday, 24 December 2019",
+            "Wednesday, 25 December 2019",
+            "Saturday, 28 December 2019 (Limited Hours)",
+            "Tuesday, 31 December 2019",
+            "Wednesday, 1 January 2020"
+        ]
+    
+    }]
+}
