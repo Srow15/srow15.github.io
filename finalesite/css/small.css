@@ -1,23 +1,30 @@
 /* Every Page*/
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Courgette', cursive;
     color: #1c2d44;
 }
-body{
+
+body {
     font-family: 'Nunito', sans-serif;
     color: #1c2d44;
 }
 
-header{
+header {
     text-align: center;
 }
+
 main {
     margin: 0 auto;
     max-width: 1000px;
 }
 
-footer{
+footer {
     text-align: center;
     background-color: #fdb913;
     padding: 5px;
@@ -74,7 +81,7 @@ nav {
 }
 
 /*home page*/
-#homebutton button{
+#homebutton button {
     padding: 5px 15px;
     border-color: #1c2d44;
     background-color: #fdb913;
@@ -91,11 +98,12 @@ nav {
     bottom: 80px;
     left: 170px;
 }
+
 #homemain {
     display: grid;
 }
 
-.homectwo{
+.homectwo {
     margin: auto;
     text-align: center;
     padding: 5px;
@@ -104,19 +112,30 @@ nav {
 
 }
 
- 
-#bap{
+
+#bap {
     flex-direction: column-reverse;
 }
 
-#homemain article{
+#homemain article {
     margin: auto;
 }
 
-#sealings, #baptism{
+#sealings,
+#baptism {
     border-bottom: 2px solid #fdb913;
 }
 
+/*temples*/
+#templemain div{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr;
+}
+#templemain img{
+    max-width: 200px;
 
-
-
+}
+#templemain section{
+    padding: 5px;
+}

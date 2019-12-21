@@ -7,7 +7,7 @@ fetch(requestURL)
     //console.table(jsonObject);  // temporary checking for valid response and data parsing
     const temples = jsonObject['temples'];
     for (let i = 0; i < temples.length; i++ ) {
-        let card = document.createElement('section');
+        let info = document.createElement('section');
 let h2 = document.createElement('h2');
 let h31 = document.createElement('h3');
 let h32 = document.createElement('h3');
@@ -56,30 +56,30 @@ p10.textContent = temples[i].closures;
 img.setAttribute('src', temples[i].imageurl);
 img.setAttribute('alt', temples[i].name);
 
-card.appendChild(h2);
-card.appendChild(img);
-card.appendChild(h31);
-card.appendChild(p1);
-card.appendChild(h32);
-card.appendChild(p2);
-card.appendChild(h33);
-card.appendChild(p3);
-card.appendChild(h34);
-card.appendChild(p4);
-card.appendChild(h35);
-card.appendChild(p5);
-card.appendChild(h36);
-card.appendChild(p6);
-card.appendChild(h37);
-card.appendChild(p7);
-card.appendChild(h38);
-card.appendChild(p8);
-card.appendChild(h39);
-card.appendChild(p9);
-card.appendChild(h310);
-card.appendChild(p10);
+info.appendChild(h2);
+info.appendChild(img);
+info.appendChild(h31);
+info.appendChild(p1);
+info.appendChild(h32);
+info.appendChild(p2);
+info.appendChild(h33);
+info.appendChild(p3);
+info.appendChild(h34);
+info.appendChild(p4);
+info.appendChild(h35);
+info.appendChild(p5);
+info.appendChild(h36);
+info.appendChild(p6);
+info.appendChild(h37);
+info.appendChild(p7);
+info.appendChild(h38);
+info.appendChild(p8);
+info.appendChild(h39);
+info.appendChild(p9);
+info.appendChild(h310);
+info.appendChild(p10);
 
-document.querySelector('div.cards').appendChild(card);
+document.querySelector('div.info').appendChild(info);
 
     }
 

@@ -24,4 +24,12 @@
     grid-area: 3 / 3 / span 1 / span 1;
 }
 
+/*temples*/
+#templemain {
+    max-width: 900px;
+}
+#templemain div{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 }
