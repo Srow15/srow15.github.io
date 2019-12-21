@@ -36,6 +36,16 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+ /*services*/
+ #servicediv2 {
+    flex-direction: row;
+}
+/*contact page*/
+#contactsection {
+    display: flex;
+    flex-direction: row;
+}
+
 
 
 }

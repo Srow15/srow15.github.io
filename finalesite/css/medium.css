@@ -31,8 +31,22 @@
 }
 
 /*temples*/
+
 #templemain div{
+    margin: 0 auto;
     grid-template-columns: 1fr 1fr;
 }
+
+/*service page*/
+
+#servicediv1 {
+    flex-direction: row;
+}
+
+/*sub pages*/
+#subpage2 {
+    flex-direction: row;
+}
+
 
 }
