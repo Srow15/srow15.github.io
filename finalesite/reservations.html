@@ -23,17 +23,17 @@
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="../finalesite/index.html">Home</a></li>
-            <li><a href="../finalesite/services.html">Services</a></li class="active">
-            <li class="active"><a href="../finalesite/reservations.html">Reservations</a></li class="active">
+            <li><a href="../finalesite/services.html">Services</a></li>
+            <li class="active"><a href="../finalesite/reservations.html">Reservations</a></li>
             <li><a href="../finalesite/temple.html">Temples</a></li>
-            <li><a href="../finalesite/contact.html">Contact</a></li class="active">
+            <li><a href="../finalesite/contact.html">Contact</a></li>
         </ul>
     </nav>
     <main id="reservationmain">
         <h1>Make a Reservation</h1>
         <form method="get" action="thanks.html">
             <fieldset>
-                <label required>Location: <select name="Location">
+                <label>Location: <select name="Location">
                         <option selected disabled>Select Location</option>
                         <option value="Newport Beach California">Newport Beach California</option>
                         <option value="Idaho Falls Idaho">Idaho Falls Idaho</option>
@@ -41,9 +41,9 @@
                         <option value="Meridian Idaho">Meridian Idaho</option>
                     </select>
                 </label>
-                <label required>Date: <input type="date" name="date"></label>
-                <label required>Number of Guests: <input type="number" name="guests"></label>
-                <label required>Type of Room: <select name="room">
+                <label>Date: <input type="date" name="date"></label>
+                <label>Number of Guests: <input type="number" name="guests"></label>
+                <label>Type of Room: <select name="room">
                         <option selected disabled>Select Room Type</option>
                         <option value="One Bed">One Bed</option>
                         <option value="Two Bed">Two Bed</option>
@@ -56,13 +56,13 @@
                 <label>Phone Number: <input type="tel" name="phone" required></label>
                 <label>Email: <input type="email" name="email" placeholder="www.myemaill@email.com"></label>
                 <label>Home State/Country <input type="text" name="state" required pattern="[A-Za-z ]{5,}"> </label>
-                <label id="textarea" >special accommodations/comments: 
+                <label id="textarea">special accommodations/comments:
                     <textarea name='comment' cols='50' rows='4'></textarea>
                 </label>
                 <label id="comment">
                     <input id="submit" type="submit" value="Send Report">
                 </label>
-
+            </fieldset>
         </form>
     </main>
     <footer>
