@@ -23,8 +23,11 @@
     grid-area: 1 / 1 / span 1 / span 1;
 }
 .homectwo{
-    display: flex;
+    flex-direction: row;
 
+}
+#bap{
+    flex-direction: row;
 }
 
 }
