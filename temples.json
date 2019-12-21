@@ -4,12 +4,8 @@
             "address": "2300 Bonita Canyon Dr Newport Beach CA 92660-9118 United States",
             "telephone": "(949)644-1820",
             "email": "n/a",
-            "services": [
-                "No clothing rental available",
-                "No cafeteria available",
-                "No patron housing available",
-                "No distribution center nearby"
-            ],
+            "services": 
+                "No clothing rental available/nNo cafeteria available/nNo patron housing available/nNo distribution center nearby",
             "history": [
                 "Announced 21 April 2001",
                 "Groundbreaking 15 August 2003",
