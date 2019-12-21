@@ -17,12 +17,12 @@ h2.textContent = temples[i].name;
 p1.textContent = temples[i].birthdate;
 p2.textContent = temples[i].birthplace;
 img.setAttribute('src', temples[i].imageurl);
-img.setAttribute('alt', temples[i].name + ' ' + temples[i].lastname + '-' + temples[i].order);
+img.setAttribute('alt', temples[i].name);
 
 card.appendChild(h2);
+card.appendChild(img);
 card.appendChild(p1);
 card.appendChild(p2);
-card.appendChild(img);
 
 document.querySelector('div.cards').appendChild(card);
 
