@@ -97,6 +97,9 @@ nav {
 }
 
 /*home page*/
+#homemian {
+    max-width: 900px;
+}
 #homebutton button {
     padding: 5px 15px;
     border-color: #1c2d44;
