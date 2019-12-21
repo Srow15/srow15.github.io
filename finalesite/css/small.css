@@ -112,6 +112,14 @@ nav {
 
 }
 
+#contact{
+    background-color: #ffb3d3;
+    border-radius: 10px;
+    text-align: center;
+    width: 550px;
+
+}
+
 
 #bap {
     flex-direction: column-reverse;
@@ -127,9 +135,12 @@ nav {
 }
 
 /*temples*/
+#templemain{
+    margin: 10px auto;
+}
 #templemain div{
     display: grid;
-    grid-gap: 5px;
+    grid-gap: 10px;
     grid-template-columns: 1fr;
 }
 #templemain img{
@@ -137,5 +148,7 @@ nav {
 
 }
 #templemain section{
-    padding: 5px;
+    padding: 10px;
+    background-color: #ffb3d3;
+    border-radius: 10px;
 }
